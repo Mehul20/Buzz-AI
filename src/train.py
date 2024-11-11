@@ -1,5 +1,5 @@
 from sentence_transformers import SentenceTransformer
-from utils import read_file
+from utils import read_file, save_pickle_dictionary
 import numpy as np
 import faiss
 
@@ -14,13 +14,14 @@ def bert_vectorization():
         vector_data_obj[tuple(curr_vector)] = course_id
         all_vectors.append(curr_vector)
     all_vectors = np.array(all_vectors).astype("float32")
-    return vector_data_obj, all_vectors
+    save_pickle_dictionary(vector_data_obj, "../Processed/vector_map.pkl")
+    return all_vectors
 
 def facebook_AI_Search(all_vectors):
     embedding_dimension = all_vectors.shape[1]
     faiss_index = faiss.IndexFlatL2(embedding_dimension)
     faiss_index.add(all_vectors)
-    return faiss_index
+    faiss.write_index(faiss_index, "../Processed/faiss_index.index")
 
-vector_obj, all_vectors = bert_vectorization()
-faiss_index = facebook_AI_Search(all_vectors)
+all_vectors = bert_vectorization()
+facebook_AI_Search(all_vectors[:2])
