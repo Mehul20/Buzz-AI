@@ -24,7 +24,8 @@ def extract_sections(raw_sections):
         except:
             professor_names = []
         course_sections[section_name] = {
-            "Professors": professor_names
+            "Professors": professor_names,
+            "Campus Index": raw_sections[curr_section][4]
         }
     return course_sections
 
