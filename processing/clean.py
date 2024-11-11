@@ -48,11 +48,11 @@ def create_data_model(relevant_courses):
     return clean_data_model
 
 
-filePath = "data.json"
-data = read_data(filePath)
-relevant_courses = clean_data_relevant_courses(data)
-clean_data_model = create_data_model(relevant_courses)
-print(clean_data_model)
+if __name__ == "__main__":
+    filePath = "../source/data.json"
+    data = read_data(filePath)
+    relevant_courses = clean_data_relevant_courses(data)
+    clean_data_model = create_data_model(relevant_courses)
 
-with open("data_clean.json", "w") as json_file:
-    json.dump(clean_data_model, json_file, indent=4)
+    with open("data_clean.json", "w") as json_file:
+        json.dump(clean_data_model, json_file, indent=4)
