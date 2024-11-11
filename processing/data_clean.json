@@ -71,18 +71,6 @@
             }
         }
     },
-    "CX 4803": {
-        "Name": "Comput Found of Machine Learn",
-        "Description": "Course topics will vary. This course number will be used to prototype new courses and/or offer courses on topics of timely interest. The final digit in the course number indicates the number of units offered awarded for the course.",
-        "Section Information": {
-            "CML": {
-                "Professors": [
-                    "Edmond Chow (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "CSE 6001": {
         "Name": "Intro-Comp Sci &amp; Engr",
         "Description": "This course will introduce students to major research areas in computational science and engineering.",
@@ -490,58 +478,6 @@
         "Description": "Topics of current interest in Computational Science and Engineering.",
         "Section Information": {
             "LAS": {
-                "Professors": [
-                    "Rapha&euml;l Pestourie (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "CSE 8803": {
-        "Name": "Brain-inspired Machine Intel",
-        "Description": "Topics of current interest in Computational Science and Engineering.",
-        "Section Information": {
-            "BMI": {
-                "Professors": [
-                    "Lu Mi (P)"
-                ],
-                "Campus Index": 0
-            },
-            "DLT": {
-                "Professors": [
-                    "Chao Zhang (P)"
-                ],
-                "Campus Index": 0
-            },
-            "EPI": {
-                "Professors": [
-                    "Bodicherla Aditya Prakash (P)"
-                ],
-                "Campus Index": 0
-            },
-            "NBD": {
-                "Professors": [
-                    "Anqi Wu (P)"
-                ],
-                "Campus Index": 0
-            },
-            "NLP": {
-                "Professors": [
-                    "Max Roozbahani (P)",
-                    "Wafa Louhichi",
-                    "Nimisha Roy"
-                ],
-                "Campus Index": 0
-            },
-            "OAN": {
-                "Professors": [
-                    "Max Roozbahani (P)",
-                    "Wafa Louhichi",
-                    "Nimisha Roy"
-                ],
-                "Campus Index": 7
-            },
-            "SML": {
                 "Professors": [
                     "Rapha&euml;l Pestourie (P)"
                 ],
@@ -6560,48 +6496,6 @@
             }
         }
     },
-    "CS 4803": {
-        "Name": "Animal Interaction",
-        "Description": "Courses of timely interest to the profession, conducted by resident or visiting faculty.",
-        "Section Information": {
-            "ANI": {
-                "Professors": [
-                    "Charles Ramey (P)"
-                ],
-                "Campus Index": 0
-            },
-            "CSR": {
-                "Professors": [
-                    "Sukarno Mertoguno (P)"
-                ],
-                "Campus Index": 0
-            },
-            "EGD": {
-                "Professors": [
-                    "Elizabeth Disalvo (P)"
-                ],
-                "Campus Index": 0
-            },
-            "IR": {
-                "Professors": [
-                    "Vijay Madisetti (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SG": {
-                "Professors": [
-                    "Athanassios Economou (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SLB": {
-                "Professors": [
-                    "Taesoo Kim (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "CS 4863": {
         "Name": "Intro to Res in ML, Robo &amp; Vis",
         "Description": "Special Topics",
@@ -10144,163 +10038,6 @@
             "AL": {
                 "Professors": [
                     "Nader Sadegh (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "CS 8803": {
-        "Name": "Animal Interaction",
-        "Description": "Special topics of current interest.  Treatment of new developments in various areas of computing.",
-        "Section Information": {
-            "ANI": {
-                "Professors": [
-                    "Melody Jackson (P)"
-                ],
-                "Campus Index": 0
-            },
-            "CAI": {
-                "Professors": [
-                    "Larry Heck (P)"
-                ],
-                "Campus Index": 0
-            },
-            "CS": {
-                "Professors": [
-                    "Zongchen Chen (P)"
-                ],
-                "Campus Index": 0
-            },
-            "DL": {
-                "Professors": [
-                    "Merrick Furst (P)"
-                ],
-                "Campus Index": 0
-            },
-            "DML": {
-                "Professors": [
-                    "Stephen Mussmann (P)"
-                ],
-                "Campus Index": 0
-            },
-            "DRL": {
-                "Professors": [
-                    "Animesh Garg (P)"
-                ],
-                "Campus Index": 0
-            },
-            "ECS": {
-                "Professors": [
-                    "Frank Li (P)"
-                ],
-                "Campus Index": 0
-            },
-            "EGD": {
-                "Professors": [
-                    "Elizabeth Disalvo (P)"
-                ],
-                "Campus Index": 0
-            },
-            "GPU": {
-                "Professors": [
-                    "Hyesoon Kim (P)"
-                ],
-                "Campus Index": 0
-            },
-            "LLM": {
-                "Professors": [
-                    "Wei Xu (P)"
-                ],
-                "Campus Index": 0
-            },
-            "MAS": {
-                "Professors": [
-                    "Matthew Sanders (P)"
-                ],
-                "Campus Index": 0
-            },
-            "MCI": {
-                "Professors": [
-                    "Ashutosh Dhekne (P)"
-                ],
-                "Campus Index": 0
-            },
-            "O08": {
-                "Professors": [
-                    "Santosh Pande (P)"
-                ],
-                "Campus Index": 7
-            },
-            "O15": {
-                "Professors": [
-                    "Laura Huffman",
-                    "Olufisayo Omojokun (P)"
-                ],
-                "Campus Index": 7
-            },
-            "O17": {
-                "Professors": [
-                    "Brian McGreggor (P)"
-                ],
-                "Campus Index": 7
-            },
-            "O21": {
-                "Professors": [
-                    "Hyesoon Kim (P)"
-                ],
-                "Campus Index": 7
-            },
-            "O23": {
-                "Professors": [
-                    "Maria Konte (P)"
-                ],
-                "Campus Index": 7
-            },
-            "O24": {
-                "Professors": [
-                    "Nicholas Lytle (P)"
-                ],
-                "Campus Index": 7
-            },
-            "PC": {
-                "Professors": [
-                    "Courtney Crooks (P)"
-                ],
-                "Campus Index": 0
-            },
-            "PCG": {
-                "Professors": [
-                    "Greg Turk (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SAT": {
-                "Professors": [
-                    "Vijay Ganesh (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SII": {
-                "Professors": [
-                    "Cecilia Testart (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SMR": {
-                "Professors": [
-                    "Alexey Tumanov (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SRD": {
-                "Professors": [
-                    "Bruce Walker (P)"
-                ],
-                "Campus Index": 0
-            },
-            "VLM": {
-                "Professors": [
-                    "Zsolt Kira (P)"
                 ],
                 "Campus Index": 0
             }
@@ -16501,18 +16238,6 @@
             }
         }
     },
-    "ECE 4803": {
-        "Name": "Electric Vehicles",
-        "Description": "No course description is available.",
-        "Section Information": {
-            "EV": {
-                "Professors": [
-                    "Maryam Saeedifard (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "ECE 4804": {
         "Name": "VLSI: THEORY TO TAPEOUT",
         "Description": "No course description is available.",
@@ -19981,73 +19706,6 @@
                     "Nader Sadegh (P)"
                 ],
                 "Campus Index": 0
-            }
-        }
-    },
-    "ECE 8803": {
-        "Name": "Conversation AI",
-        "Description": "Special Topics in ECE",
-        "Section Information": {
-            "CAI": {
-                "Professors": [
-                    "Larry Heck (P)"
-                ],
-                "Campus Index": 0
-            },
-            "CAQ": {
-                "Professors": [
-                    "Larry Heck (P)"
-                ],
-                "Campus Index": 2
-            },
-            "ECM": {
-                "Professors": [
-                    "Jerry Perullo (P)"
-                ],
-                "Campus Index": 0
-            },
-            "ECS": {
-                "Professors": [
-                    "Frank Li (P)"
-                ],
-                "Campus Index": 0
-            },
-            "EV": {
-                "Professors": [
-                    "Maryam Saeedifard (P)"
-                ],
-                "Campus Index": 0
-            },
-            "EVQ": {
-                "Professors": [
-                    "Maryam Saeedifard (P)"
-                ],
-                "Campus Index": 2
-            },
-            "FML": {
-                "Professors": [
-                    "Ghassan Al-Regib",
-                    "Mohit Prabhushankar (P)"
-                ],
-                "Campus Index": 0
-            },
-            "GDL": {
-                "Professors": [
-                    "Amirali Aghazadeh (P)"
-                ],
-                "Campus Index": 0
-            },
-            "HOS": {
-                "Professors": [
-                    "Ashwin Pananjady Martin (P)"
-                ],
-                "Campus Index": 0
-            },
-            "QSZ": {
-                "Professors": [
-                    "Maryam Saeedifard (P)"
-                ],
-                "Campus Index": 6
             }
         }
     },
@@ -23664,6 +23322,612 @@
                     "Saman Zonouz (P)"
                 ],
                 "Campus Index": 0
+            }
+        }
+    },
+    "CX 4803-CML": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CML": {
+                "Professors": [
+                    "Edmond Chow (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CSE 8803-BMI": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "BMI": {
+                "Professors": [
+                    "Lu Mi (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CSE 8803-DLT": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "DLT": {
+                "Professors": [
+                    "Chao Zhang (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CSE 8803-EPI": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "EPI": {
+                "Professors": [
+                    "Bodicherla Aditya Prakash (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CSE 8803-NBD": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "NBD": {
+                "Professors": [
+                    "Anqi Wu (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CSE 8803-NLP": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "NLP": {
+                "Professors": [
+                    "Max Roozbahani (P)",
+                    "Wafa Louhichi",
+                    "Nimisha Roy"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CSE 8803-OAN": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "OAN": {
+                "Professors": [
+                    "Max Roozbahani (P)",
+                    "Wafa Louhichi",
+                    "Nimisha Roy"
+                ],
+                "Campus Index": 7
+            }
+        }
+    },
+    "CSE 8803-SML": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SML": {
+                "Professors": [
+                    "Rapha&euml;l Pestourie (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 4803-ANI": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "ANI": {
+                "Professors": [
+                    "Charles Ramey (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 4803-CSR": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CSR": {
+                "Professors": [
+                    "Sukarno Mertoguno (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 4803-EGD": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "EGD": {
+                "Professors": [
+                    "Elizabeth Disalvo (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 4803-IR": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "IR": {
+                "Professors": [
+                    "Vijay Madisetti (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 4803-SG": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SG": {
+                "Professors": [
+                    "Athanassios Economou (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 4803-SLB": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SLB": {
+                "Professors": [
+                    "Taesoo Kim (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-ANI": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "ANI": {
+                "Professors": [
+                    "Melody Jackson (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-CAI": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CAI": {
+                "Professors": [
+                    "Larry Heck (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-CS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CS": {
+                "Professors": [
+                    "Zongchen Chen (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-DL": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "DL": {
+                "Professors": [
+                    "Merrick Furst (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-DML": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "DML": {
+                "Professors": [
+                    "Stephen Mussmann (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-DRL": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "DRL": {
+                "Professors": [
+                    "Animesh Garg (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-ECS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "ECS": {
+                "Professors": [
+                    "Frank Li (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-EGD": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "EGD": {
+                "Professors": [
+                    "Elizabeth Disalvo (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-GPU": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "GPU": {
+                "Professors": [
+                    "Hyesoon Kim (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-LLM": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "LLM": {
+                "Professors": [
+                    "Wei Xu (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-MAS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "MAS": {
+                "Professors": [
+                    "Matthew Sanders (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-MCI": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "MCI": {
+                "Professors": [
+                    "Ashutosh Dhekne (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-O08": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "O08": {
+                "Professors": [
+                    "Santosh Pande (P)"
+                ],
+                "Campus Index": 7
+            }
+        }
+    },
+    "CS 8803-O15": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "O15": {
+                "Professors": [
+                    "Laura Huffman",
+                    "Olufisayo Omojokun (P)"
+                ],
+                "Campus Index": 7
+            }
+        }
+    },
+    "CS 8803-O17": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "O17": {
+                "Professors": [
+                    "Brian McGreggor (P)"
+                ],
+                "Campus Index": 7
+            }
+        }
+    },
+    "CS 8803-O21": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "O21": {
+                "Professors": [
+                    "Hyesoon Kim (P)"
+                ],
+                "Campus Index": 7
+            }
+        }
+    },
+    "CS 8803-O23": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "O23": {
+                "Professors": [
+                    "Maria Konte (P)"
+                ],
+                "Campus Index": 7
+            }
+        }
+    },
+    "CS 8803-O24": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "O24": {
+                "Professors": [
+                    "Nicholas Lytle (P)"
+                ],
+                "Campus Index": 7
+            }
+        }
+    },
+    "CS 8803-PC": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "PC": {
+                "Professors": [
+                    "Courtney Crooks (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-PCG": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "PCG": {
+                "Professors": [
+                    "Greg Turk (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-SAT": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SAT": {
+                "Professors": [
+                    "Vijay Ganesh (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-SII": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SII": {
+                "Professors": [
+                    "Cecilia Testart (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-SMR": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SMR": {
+                "Professors": [
+                    "Alexey Tumanov (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-SRD": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SRD": {
+                "Professors": [
+                    "Bruce Walker (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CS 8803-VLM": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "VLM": {
+                "Professors": [
+                    "Zsolt Kira (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECE 4803-EV": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "EV": {
+                "Professors": [
+                    "Maryam Saeedifard (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECE 8803-CAI": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CAI": {
+                "Professors": [
+                    "Larry Heck (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECE 8803-CAQ": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CAQ": {
+                "Professors": [
+                    "Larry Heck (P)"
+                ],
+                "Campus Index": 2
+            }
+        }
+    },
+    "ECE 8803-ECM": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "ECM": {
+                "Professors": [
+                    "Jerry Perullo (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECE 8803-ECS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "ECS": {
+                "Professors": [
+                    "Frank Li (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECE 8803-EV": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "EV": {
+                "Professors": [
+                    "Maryam Saeedifard (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECE 8803-EVQ": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "EVQ": {
+                "Professors": [
+                    "Maryam Saeedifard (P)"
+                ],
+                "Campus Index": 2
+            }
+        }
+    },
+    "ECE 8803-FML": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "FML": {
+                "Professors": [
+                    "Ghassan Al-Regib",
+                    "Mohit Prabhushankar (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECE 8803-GDL": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "GDL": {
+                "Professors": [
+                    "Amirali Aghazadeh (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECE 8803-HOS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "HOS": {
+                "Professors": [
+                    "Ashwin Pananjady Martin (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECE 8803-QSZ": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "QSZ": {
+                "Professors": [
+                    "Maryam Saeedifard (P)"
+                ],
+                "Campus Index": 6
             }
         }
     }
