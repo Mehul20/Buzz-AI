@@ -25008,8 +25008,8 @@
         }
     },
     "CS 8803-BC": {
-        "Name": "",
-        "Description": "",
+        "Name": "Intro to Blockchain & Cryptocurrency",
+        "Description": "This course is an introduction to blockchain and underlying technology, mostly crypto. It is intended for senior CS students, especially those interested in cryptography or security. Course will involve some coding, reading research literature and writing formal proofs of security.",
         "Section Information": {
             "BC": {
                 "Professors": [

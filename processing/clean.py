@@ -67,12 +67,20 @@ def special_topics_design(clean_data_model):
     clean_data_model = clean_data_model | new_entries
     return clean_data_model
 
+def manual_data_merging(clean_data_model):
+    manual_data = read_data("manual_inputs.json")
+    for key in manual_data.keys():
+        clean_data_model[key]["Name"] = manual_data[key]["Name"]
+        clean_data_model[key]["Description"] = manual_data[key]["Description"]
+    return clean_data_model
+
 if __name__ == "__main__":
     filePath = "../DataSource/data.json"
     data = read_data(filePath)
     relevant_courses = clean_data_relevant_courses(data)
     clean_data_model = create_data_model(relevant_courses)
     clean_data_model = special_topics_design(clean_data_model)
+    clean_data_model = manual_data_merging(clean_data_model)
 
     with open("data_clean.json", "w") as json_file:
         json.dump(clean_data_model, json_file, indent=4)
