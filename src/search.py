@@ -11,9 +11,9 @@ def similarity_for_query(user_query):
     vectorized_query = model.encode(user_query).astype("float32").reshape(1, -1)
     _, indices = index.search(vectorized_query, 5)
 
-    topKIndices = list(indices[0])
+    topIndices = list(indices[0])
     top_results = []
-    for index in topKIndices:
+    for index in topIndices:
         top_results.append(course_ids[index])
     return top_results
 
