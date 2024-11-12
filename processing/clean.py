@@ -43,9 +43,17 @@ def create_data_model(relevant_courses):
 def special_topics_design(clean_data_model):
     special_topics_classes = []
     new_entries = {}
-    
+    favored_majors = {"CS", "CX", "ECE", "CM", "CSE"}
+
     for key in clean_data_model.keys():
         course_number_isolate = key.split(" ")[1]
+        
+        ### Removing Special Topics for Non-CS relevant Majors
+        major = key.split(" ")[0]
+        if major not in favored_majors:
+            continue
+        ###
+
         if course_number_isolate == "4803" or course_number_isolate == "8803":
             all_section_info = clean_data_model[key]["Section Information"]
             for section in all_section_info.keys(): 
@@ -56,7 +64,7 @@ def special_topics_design(clean_data_model):
                         section: all_section_info[section]
                     }
                 }
-        special_topics_classes.append(key)
+            special_topics_classes.append(key)
     
     for sp_class in special_topics_classes:
         if sp_class in clean_data_model.keys():

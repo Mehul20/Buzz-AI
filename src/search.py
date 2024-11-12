@@ -9,7 +9,7 @@ def similarity_for_query(user_query):
     course_ids = np.load("../Processed/course_ids.npy", allow_pickle=True)
 
     vectorized_query = model.encode(user_query).astype("float32").reshape(1, -1)
-    _, indices = index.search(vectorized_query, 5)
+    _, indices = index.search(vectorized_query, 50)
 
     topIndices = list(indices[0])
     top_results = []
@@ -23,6 +23,6 @@ def convert_top_results_into_data(top_results):
         class_name = data[curr_result]["Name"]
         print(curr_result, class_name)
 
-user_query = "dynamics"
+user_query = "Data Visualization"
 top_results = similarity_for_query(user_query)
 convert_top_results_into_data(top_results)
