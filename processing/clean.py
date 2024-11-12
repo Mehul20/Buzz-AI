@@ -52,7 +52,7 @@ def special_topics_design(clean_data_model):
         major = key.split(" ")[0]
         if major not in favored_majors:
             continue
-        ###
+        ### Removing Special Topics for Non-CS relevant Majors
 
         if course_number_isolate == "4803" or course_number_isolate == "8803":
             all_section_info = clean_data_model[key]["Section Information"]
