@@ -68,7 +68,7 @@ def special_topics_design(clean_data_model):
     return clean_data_model
 
 if __name__ == "__main__":
-    filePath = "../source/data.json"
+    filePath = "../DataSource/data.json"
     data = read_data(filePath)
     relevant_courses = clean_data_relevant_courses(data)
     clean_data_model = create_data_model(relevant_courses)
