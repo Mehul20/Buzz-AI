@@ -70,8 +70,9 @@ def special_topics_design(clean_data_model):
 def manual_data_merging(clean_data_model):
     manual_data = read_data("manual_inputs.json")
     for key in manual_data.keys():
-        clean_data_model[key]["Name"] = manual_data[key]["Name"]
-        clean_data_model[key]["Description"] = manual_data[key]["Description"]
+        if key in clean_data_model.keys():
+            clean_data_model[key]["Name"] = manual_data[key]["Name"]
+            clean_data_model[key]["Description"] = manual_data[key]["Description"]
     return clean_data_model
 
 if __name__ == "__main__":
