@@ -2541,49 +2541,6 @@
             }
         }
     },
-    "AE 4803": {
-        "Name": "Foundations Sci Machine Lrning",
-        "Description": "Normally taken by seniors.  Course material devoted to special topics in aerospace engineering.",
-        "Section Information": {
-            "AIM": {
-                "Professors": [
-                    "Elizabeth Qian (P)"
-                ],
-                "Campus Index": 0
-            },
-            "CON": {
-                "Professors": [
-                    "Brian German (P)"
-                ],
-                "Campus Index": 0
-            },
-            "FTE": {
-                "Professors": [
-                    "Christopher Maston (P)",
-                    "Jonathan Rogers"
-                ],
-                "Campus Index": 0
-            },
-            "NUM": {
-                "Professors": [
-                    "Elizabeth Qian (P)"
-                ],
-                "Campus Index": 0
-            },
-            "QGE": {
-                "Professors": [
-                    "Adam Steinberg (P)"
-                ],
-                "Campus Index": 2
-            },
-            "SLD": {
-                "Professors": [
-                    "Ziqin Ni (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "AE 6012": {
         "Name": "Turbulent Flows",
         "Description": "Basic characteristics of turbulence.  Statistical methods. Reynolds averaging, kinetic energy budget, and scaling issues.  Homogeneity and isotrophy.  Free and wall bounded shear flows. Simulation and modeling.",
@@ -3591,60 +3548,6 @@
             }
         }
     },
-    "AE 8803": {
-        "Name": "Numerical Analysis",
-        "Description": "Special topics of current interest.",
-        "Section Information": {
-            "NUM": {
-                "Professors": [
-                    "Elizabeth Qian (P)"
-                ],
-                "Campus Index": 0
-            },
-            "Q3": {
-                "Professors": [
-                    "Narayanamoorthy Sankar (P)"
-                ],
-                "Campus Index": 3
-            },
-            "QGE": {
-                "Professors": [
-                    "Adam Steinberg (P)"
-                ],
-                "Campus Index": 2
-            },
-            "QNU": {
-                "Professors": [
-                    "Elizabeth Qian (P)"
-                ],
-                "Campus Index": 2
-            },
-            "QRA": {
-                "Professors": [
-                    "Juergen Rauleder (P)"
-                ],
-                "Campus Index": 2
-            },
-            "RAL": {
-                "Professors": [
-                    "Juergen Rauleder (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SLD": {
-                "Professors": [
-                    "Ziqin Ni (P)"
-                ],
-                "Campus Index": 0
-            },
-            "TSI": {
-                "Professors": [
-                    "Panagiotis Tsiotras (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "AE 8813": {
         "Name": "Special Topics",
         "Description": "Special Topics in AE",
@@ -4626,18 +4529,6 @@
             }
         }
     },
-    "ASE 8803": {
-        "Name": "Leadership Development",
-        "Description": "Topics of current interest in Applied Systems Engineering.",
-        "Section Information": {
-            "QSY": {
-                "Professors": [
-                    "Robert Thomas (P)"
-                ],
-                "Campus Index": 2
-            }
-        }
-    },
     "ARBC 1002": {
         "Name": "Elementary Arabic II",
         "Description": "This is a course continuation of Arabic I.",
@@ -4942,51 +4833,6 @@
             "MR": {
                 "Professors": [
                     "Michelle Rinehart (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "ARCH 4803": {
-        "Name": "Arch Space &amp; Culture",
-        "Description": "No course description is available.",
-        "Section Information": {
-            "A": {
-                "Professors": [
-                    "John Peponis (P)"
-                ],
-                "Campus Index": 0
-            },
-            "AB": {
-                "Professors": [],
-                "Campus Index": 0
-            },
-            "DS": {
-                "Professors": [],
-                "Campus Index": 0
-            },
-            "EDJ": {
-                "Professors": [
-                    "Ellen Dunham-Jones (P)"
-                ],
-                "Campus Index": 0
-            },
-            "HC": {
-                "Professors": [
-                    "Hui Cai (P)"
-                ],
-                "Campus Index": 0
-            },
-            "JC": {
-                "Professors": [
-                    "Amy Stone",
-                    "James Cramer (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SK": {
-                "Professors": [
-                    "Sabir Khan (P)"
                 ],
                 "Campus Index": 0
             }
@@ -5641,29 +5487,6 @@
                     "Annalisa Bracco",
                     "Laura Taylor",
                     "Ingeborg Rocker"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "ARCH 8803": {
-        "Name": "Lights, Camera, City",
-        "Description": "No course description is available.",
-        "Section Information": {
-            "DS": {
-                "Professors": [],
-                "Campus Index": 0
-            },
-            "JC": {
-                "Professors": [
-                    "Amy Stone",
-                    "James Cramer (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SK": {
-                "Professors": [
-                    "Sabir Khan (P)"
                 ],
                 "Campus Index": 0
             }
@@ -7955,36 +7778,6 @@
             }
         }
     },
-    "BIOS 4803": {
-        "Name": "Neuromotor Physiology",
-        "Description": "Special Topics",
-        "Section Information": {
-            "BAL": {
-                "Professors": [
-                    "Edward Balog (P)"
-                ],
-                "Campus Index": 0
-            },
-            "HAR": {
-                "Professors": [
-                    "Colin Harrison (P)"
-                ],
-                "Campus Index": 0
-            },
-            "ROS": {
-                "Professors": [
-                    "Michele Rosbruck (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SHI": {
-                "Professors": [
-                    "Minoru Shinohara (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "BIOL 6410": {
         "Name": "Microbial Ecology",
         "Description": "Advanced studies of microbial ecosystems, the specific roles of bacteria in maintaining ecological balance, and the evolution of the ecosystem in response to changing environments.",
@@ -8463,24 +8256,6 @@
             "MCG": {
                 "Professors": [
                     "Patrick McGrath (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "BIOL 8803": {
-        "Name": "Chromosome Bio &amp; Human Disease",
-        "Description": "New graduate lecture courses in areas of current interest.",
-        "Section Information": {
-            "LOB": {
-                "Professors": [
-                    "Kirill Lobachev (P)"
-                ],
-                "Campus Index": 0
-            },
-            "MEN": {
-                "Professors": [
-                    "Joseph Mendelson (P)"
                 ],
                 "Campus Index": 0
             }
@@ -11373,27 +11148,6 @@
             }
         }
     },
-    "BMED 4803": {
-        "Name": "Image-based tissue modeling",
-        "Description": "Courses in special topics of current interest not included in the regular course offerings.",
-        "Section Information": {
-            "HOL": {
-                "Professors": [
-                    "Scott Hollister (P)"
-                ],
-                "Campus Index": 0
-            },
-            "NNB": {
-                "Professors": [
-                    "Haley Steele",
-                    "Simon Sponberg",
-                    "Timothy Cope (P)",
-                    "Thackery Brown"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "BMED 4813": {
         "Name": "Clin Observ Design Exp",
         "Description": "Courses in special topics of current interest not included in the regular course offerings.",
@@ -12996,24 +12750,6 @@
             "EY": {
                 "Professors": [
                     "Eunhwa Yang (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "BC 8803": {
-        "Name": "Special Topics: Market Analy",
-        "Description": "Topics of current interest in building construction.",
-        "Section Information": {
-            "01": {
-                "Professors": [
-                    "Alexander Paul (P)"
-                ],
-                "Campus Index": 0
-            },
-            "DT": {
-                "Professors": [
-                    "Leonardo Garcia Bottia (P)"
                 ],
                 "Campus Index": 0
             }
@@ -14641,36 +14377,6 @@
             }
         }
     },
-    "CHBE 4803": {
-        "Name": "Tech Leadership and Prof",
-        "Description": "Topics relevant to chemical engineering not currently covered in the undergraduate curriculum are presented as demand or interest warrants.",
-        "Section Information": {
-            "CJ": {
-                "Professors": [
-                    "Christopher Jones (P)"
-                ],
-                "Campus Index": 0
-            },
-            "PPY": {
-                "Professors": [
-                    "Pamela Peralta-Yahya (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SN": {
-                "Professors": [
-                    "Sankar Nair (P)"
-                ],
-                "Campus Index": 0
-            },
-            "VJ": {
-                "Professors": [
-                    "Vida Jamali (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "CHBE 6050": {
         "Name": "Microelec Fabrication",
         "Description": "An elective class for students interested in fabrication of semiconductor devices focusing on the fundamentals of materials synthesis, chemical and mechanical properties, and chemical reactions. Credit will not be awarded for both CHBE 6050 and CHBE 4050.",
@@ -14988,37 +14694,6 @@
                 "Professors": [
                     "Matthew Realff (P)",
                     "Ingeborg Rocker"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "CHBE 8803": {
-        "Name": "Renewable Biochemistry",
-        "Description": "No course description is available.",
-        "Section Information": {
-            "PPY": {
-                "Professors": [
-                    "Pamela Peralta-Yahya (P)"
-                ],
-                "Campus Index": 0
-            },
-            "PSE": {
-                "Professors": [
-                    "James Meredith (P)",
-                    "Christopher Luettgen"
-                ],
-                "Campus Index": 0
-            },
-            "SN": {
-                "Professors": [
-                    "Sankar Nair (P)"
-                ],
-                "Campus Index": 0
-            },
-            "VJ": {
-                "Professors": [
-                    "Vida Jamali (P)"
                 ],
                 "Campus Index": 0
             }
@@ -16765,38 +16440,6 @@
             }
         }
     },
-    "CHEM 4803": {
-        "Name": "Special Topics",
-        "Description": "Topics of current interest not included in the regular course offerings.",
-        "Section Information": {
-            "CS": {
-                "Professors": [
-                    "Andreas Bommarius",
-                    "Carsten Sievers (P)"
-                ],
-                "Campus Index": 0
-            },
-            "FC": {
-                "Professors": [
-                    "Christoph Fahrni (P)",
-                    "Amit Reddi"
-                ],
-                "Campus Index": 0
-            },
-            "PPY": {
-                "Professors": [
-                    "Pamela Peralta-Yahya (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SF": {
-                "Professors": [
-                    "Stefan France (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "CHEM 6171": {
         "Name": "Inorganic Chem II",
         "Description": "Contemporary topics in inorganic chemistry including bioinorganic chemistry, reaction mechanisms and kinetics, optical and magnetic properties of molecular species, and inorganic materials.",
@@ -17120,19 +16763,6 @@
             "RCR": {
                 "Professors": [
                     "Angus Wilkinson (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "CHEM 8803": {
-        "Name": "Special Topics",
-        "Description": "No course description is available.",
-        "Section Information": {
-            "CS": {
-                "Professors": [
-                    "Andreas Bommarius",
-                    "Carsten Sievers (P)"
                 ],
                 "Campus Index": 0
             }
@@ -19485,73 +19115,6 @@
                 "Professors": [
                     "William Higginbotham",
                     "Lauren Stewart (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "CEE 4803": {
-        "Name": "Special Topics",
-        "Description": "No course description is available.",
-        "Section Information": {
-            "A": {
-                "Professors": [
-                    "Eric Marks (P)"
-                ],
-                "Campus Index": 0
-            },
-            "B": {
-                "Professors": [
-                    "Jorge Laval (P)"
-                ],
-                "Campus Index": 0
-            },
-            "C": {
-                "Professors": [
-                    "Sharon Just (P)"
-                ],
-                "Campus Index": 0
-            },
-            "D": {
-                "Professors": [
-                    "Sheng Dai (P)"
-                ],
-                "Campus Index": 0
-            },
-            "E": {
-                "Professors": [
-                    "Sharon Just (P)"
-                ],
-                "Campus Index": 0
-            },
-            "F": {
-                "Professors": [
-                    "Yi-Chang Tsai (P)"
-                ],
-                "Campus Index": 0
-            },
-            "G": {
-                "Professors": [
-                    "Jorge Macedo (P)"
-                ],
-                "Campus Index": 0
-            },
-            "H": {
-                "Professors": [
-                    "Abdul-Hamid Zureick (P)"
-                ],
-                "Campus Index": 0
-            },
-            "I": {
-                "Professors": [
-                    "Randall Guensler (P)"
-                ],
-                "Campus Index": 0
-            },
-            "J": {
-                "Professors": [
-                    "Francesco Fedele (P)",
-                    "Mark Leibert"
                 ],
                 "Campus Index": 0
             }
@@ -36313,48 +35876,6 @@
             }
         }
     },
-    "EAS 4803": {
-        "Name": "Glacier Dynamics",
-        "Description": "Special Topics , 2-0-2, 3-0-3, 4-0-4, 5-0-5, respectively.",
-        "Section Information": {
-            "AR": {
-                "Professors": [
-                    "Alexander Robel (P)"
-                ],
-                "Campus Index": 0
-            },
-            "AS": {
-                "Professors": [
-                    "Ali Sarhadi (P)"
-                ],
-                "Campus Index": 0
-            },
-            "CR": {
-                "Professors": [
-                    "Christopher Reinhard (P)"
-                ],
-                "Campus Index": 0
-            },
-            "FH": {
-                "Professors": [
-                    "Felix Herrmann (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SLD": {
-                "Professors": [
-                    "Ziqin Ni (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SS": {
-                "Professors": [
-                    "Sven Simon (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "EAS 4821": {
         "Name": "Quantitative Techniques Lab",
         "Description": "Special Topics in EAS (1-credit hour supervised lab).",
@@ -36693,54 +36214,6 @@
             "SPA": {
                 "Professors": [
                     "Jennifer Glass (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "EAS 8803": {
-        "Name": "Glacier Dynamics",
-        "Description": "No course description is available.",
-        "Section Information": {
-            "A": {
-                "Professors": [
-                    "Alexander Robel (P)"
-                ],
-                "Campus Index": 0
-            },
-            "AS": {
-                "Professors": [
-                    "Ali Sarhadi (P)"
-                ],
-                "Campus Index": 0
-            },
-            "CR": {
-                "Professors": [
-                    "Christopher Reinhard (P)"
-                ],
-                "Campus Index": 0
-            },
-            "FH": {
-                "Professors": [
-                    "Felix Herrmann (P)"
-                ],
-                "Campus Index": 0
-            },
-            "MP": {
-                "Professors": [
-                    "Michael Porter (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SLD": {
-                "Professors": [
-                    "Ziqin Ni (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SS": {
-                "Professors": [
-                    "Sven Simon (P)"
                 ],
                 "Campus Index": 0
             }
@@ -37260,18 +36733,6 @@
             }
         }
     },
-    "ECON 4803": {
-        "Name": "Econ &amp; Financial Modeling",
-        "Description": "Courses designed to permit students and a professor to pursue a specialized interest in an area of economics not extensively treated in the offerings of the School.",
-        "Section Information": {
-            "CR2": {
-                "Professors": [
-                    "Christine Ries (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "ECON 4901": {
         "Name": "Special Problems",
         "Description": "Designed to permit independent study with a faculty member.",
@@ -37457,36 +36918,6 @@
         "Description": "Topics include Ricardian and Hecksher-Ohlin models, extensions to many goods and factors, trade in intermediate inputs and wages, increasing returns, gains from trade and regional agreements, import tariffs and dumping, import quotas and export subsidies, political economy of trade policy and trade and endogenous growth. It also examines the relationship between international trade, foreign direct investment and technological innovation and diffusion.",
         "Section Information": {
             "TB3": {
-                "Professors": [
-                    "Tibor Besedes (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "ECON 8803": {
-        "Name": "Econ &amp; Financial Modeling",
-        "Description": "No course description is available.",
-        "Section Information": {
-            "CR2": {
-                "Professors": [
-                    "Christine Ries (P)"
-                ],
-                "Campus Index": 0
-            },
-            "GD3": {
-                "Professors": [
-                    "Gaurav Doshi (P)"
-                ],
-                "Campus Index": 0
-            },
-            "GD5": {
-                "Professors": [
-                    "Gaurav Doshi (P)"
-                ],
-                "Campus Index": 0
-            },
-            "TB1": {
                 "Professors": [
                     "Tibor Besedes (P)"
                 ],
@@ -48108,18 +47539,6 @@
             }
         }
     },
-    "FREN 8803": {
-        "Name": "Environmental Literature, Arts, and Media",
-        "Description": "Topics of current interest not covered in the regular course offerings.",
-        "Section Information": {
-            "B": {
-                "Professors": [
-                    "Stephanie Boulard (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "GT 1000": {
         "Name": "GT Freshman Seminar",
         "Description": "Discussion of topics related to academic, social and professional success including learning styles, time management, major and career exploration, leadership and teamwork.",
@@ -48308,19 +47727,6 @@
             "MM2": {
                 "Professors": [
                     "Sonia Alvarez-Robinson (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "GT 4803": {
-        "Name": "Special Topics",
-        "Description": "Special Topics - content varies.",
-        "Section Information": {
-            "SDG": {
-                "Professors": [
-                    "Amy Henry",
-                    "Jennifer Hirsch (P)"
                 ],
                 "Campus Index": 0
             }
@@ -48615,24 +48021,6 @@
             "A": {
                 "Professors": [
                     "Hyoun-A Joo (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "GRMN 8803": {
-        "Name": "Special Topics",
-        "Description": "Topics of current interest not covered in the regular course offerings.",
-        "Section Information": {
-            "A": {
-                "Professors": [
-                    "Britta Kallin (P)"
-                ],
-                "Campus Index": 0
-            },
-            "B": {
-                "Professors": [
-                    "Annika Orich (P)"
                 ],
                 "Campus Index": 0
             }
@@ -50032,40 +49420,6 @@
             }
         }
     },
-    "ISYE 4803": {
-        "Name": "Health Tech Assessment",
-        "Description": "Courses in special topics of timely interest to the profession, conducted by resident or visiting faculty.",
-        "Section Information": {
-            "AYE": {
-                "Professors": [
-                    "Turgay Ayer (P)"
-                ],
-                "Campus Index": 0
-            },
-            "MOU": {
-                "Professors": [],
-                "Campus Index": 0
-            },
-            "PAN": {
-                "Professors": [
-                    "Ashwin Pananjady Martin (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SCH": {
-                "Professors": [
-                    "Katya Scheinberg (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SHA": {
-                "Professors": [
-                    "Gunter Sharp (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "ISYE 6201": {
         "Name": "Manufacturing Systems",
         "Description": "Topics include analysis of flows, bottlenecks and queuing, types of operations, manufacturing inventories, aggregreate production planning, lot sizes and lead times, and pull production systems.",
@@ -50770,66 +50124,6 @@
             "MYL": {
                 "Professors": [
                     "Nicoly Myles (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "ISYE 8803": {
-        "Name": "Special Topics",
-        "Description": "Special topics in Industrial and Systems Engineering.",
-        "Section Information": {
-            "ALE": {
-                "Professors": [
-                    "Christos Alexopoulos (P)"
-                ],
-                "Campus Index": 0
-            },
-            "AQ": {
-                "Professors": [
-                    "Jye-Chyi Lu (P)"
-                ],
-                "Campus Index": 0
-            },
-            "CEE": {
-                "Professors": [
-                    "Laurie Garrow (P)"
-                ],
-                "Campus Index": 0
-            },
-            "LAN": {
-                "Professors": [
-                    "Guanghui Lan (P)"
-                ],
-                "Campus Index": 0
-            },
-            "O01": {
-                "Professors": [
-                    "Kamran Paynabar (P)"
-                ],
-                "Campus Index": 7
-            },
-            "OAN": {
-                "Professors": [
-                    "Kamran Paynabar (P)"
-                ],
-                "Campus Index": 7
-            },
-            "Q": {
-                "Professors": [
-                    "Jye-Chyi Lu (P)"
-                ],
-                "Campus Index": 2
-            },
-            "Q01": {
-                "Professors": [
-                    "Kamran Paynabar (P)"
-                ],
-                "Campus Index": 2
-            },
-            "STE": {
-                "Professors": [
-                    "Lauren Steimle (P)"
                 ],
                 "Campus Index": 0
             }
@@ -51966,61 +51260,6 @@
             }
         }
     },
-    "ID 8803": {
-        "Name": "Sustainable Device Design",
-        "Description": "Special Topics in Industrial Design.",
-        "Section Information": {
-            "0": {
-                "Professors": [
-                    "Roger Ball (P)"
-                ],
-                "Campus Index": 0
-            },
-            "1": {
-                "Professors": [
-                    "Barbara Swindell Berryman",
-                    "Herb Velazquez (P)"
-                ],
-                "Campus Index": 0
-            },
-            "AUT": {
-                "Professors": [
-                    "David Lynn (P)"
-                ],
-                "Campus Index": 0
-            },
-            "FV": {
-                "Professors": [
-                    "Florian Vollmer (P)"
-                ],
-                "Campus Index": 0
-            },
-            "LMT": {
-                "Professors": [
-                    "Leandro Miletto Tonetto (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SK": {
-                "Professors": [
-                    "Sabir Khan (P)"
-                ],
-                "Campus Index": 0
-            },
-            "STA": {
-                "Professors": [
-                    "Abigale Stangl (P)"
-                ],
-                "Campus Index": 0
-            },
-            "YW": {
-                "Professors": [
-                    "Yixiao Wang (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "ID 8900": {
         "Name": "Special Problems",
         "Description": "Special problems in industrial design.",
@@ -52707,55 +51946,6 @@
             }
         }
     },
-    "INTA 4803": {
-        "Name": "Data Analytics and Security",
-        "Description": "Selected topics will vary from term to term.",
-        "Section Information": {
-            "AB": {
-                "Professors": [
-                    "Austin Beacham (P)"
-                ],
-                "Campus Index": 0
-            },
-            "AM": {
-                "Professors": [
-                    "Amanda Meng (P)"
-                ],
-                "Campus Index": 0
-            },
-            "DL": {
-                "Professors": [
-                    "Dennis Lockhart (P)",
-                    "Lawrence Silverman"
-                ],
-                "Campus Index": 0
-            },
-            "JJ": {
-                "Professors": [
-                    "Dahsol Jun (P)"
-                ],
-                "Campus Index": 0
-            },
-            "JL": {
-                "Professors": [
-                    "Jon Lindsay (P)"
-                ],
-                "Campus Index": 0
-            },
-            "NN": {
-                "Professors": [
-                    "Nicholas Nelson (P)"
-                ],
-                "Campus Index": 0
-            },
-            "TR": {
-                "Professors": [
-                    "Thomas Roberts (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "INTA 4901": {
         "Name": "Special Problems",
         "Description": "Independent study with a faculty member.",
@@ -52980,106 +52170,6 @@
             "A": {
                 "Professors": [
                     "David Muchlinski (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "INTA 8803": {
-        "Name": "Global Develop Capstone",
-        "Description": "No course description is available.",
-        "Section Information": {
-            "AF": {
-                "Professors": [
-                    "Alberto Fuentes (P)"
-                ],
-                "Campus Index": 0
-            },
-            "AF2": {
-                "Professors": [
-                    "Alberto Fuentes (P)"
-                ],
-                "Campus Index": 0
-            },
-            "BW": {
-                "Professors": [
-                    "Brian Woodall (P)"
-                ],
-                "Campus Index": 0
-            },
-            "DL": {
-                "Professors": [
-                    "Dennis Lockhart (P)"
-                ],
-                "Campus Index": 0
-            },
-            "ET": {
-                "Professors": [
-                    "Evgeny Tikhonravov (P)"
-                ],
-                "Campus Index": 0
-            },
-            "ET2": {
-                "Professors": [
-                    "Evgeny Tikhonravov (P)"
-                ],
-                "Campus Index": 0
-            },
-            "JJ": {
-                "Professors": [
-                    "Dahsol Jun (P)"
-                ],
-                "Campus Index": 0
-            },
-            "KB": {
-                "Professors": [
-                    "Kirk Bowman (P)"
-                ],
-                "Campus Index": 0
-            },
-            "KL": {
-                "Professors": [
-                    "Kuen-Da Lin (P)"
-                ],
-                "Campus Index": 0
-            },
-            "KW": {
-                "Professors": [
-                    "Katja Weber (P)"
-                ],
-                "Campus Index": 0
-            },
-            "MF": {
-                "Professors": [
-                    "Mikulas Fabry (P)"
-                ],
-                "Campus Index": 0
-            },
-            "QIS": {
-                "Professors": [
-                    "Robert Hines (P)"
-                ],
-                "Campus Index": 2
-            },
-            "RS": {
-                "Professors": [
-                    "Rana Shabb (P)"
-                ],
-                "Campus Index": 0
-            },
-            "TC": {
-                "Professors": [
-                    "Tarun Chaudhary (P)"
-                ],
-                "Campus Index": 0
-            },
-            "TM": {
-                "Professors": [],
-                "Campus Index": 0
-            },
-            "TR": {
-                "Professors": [
-                    "Thomas Roberts (P)"
                 ],
                 "Campus Index": 0
             }
@@ -55255,18 +54345,6 @@
             }
         }
     },
-    "LMC 8803": {
-        "Name": "Special Topics",
-        "Description": "Special Topics in Digital Media",
-        "Section Information": {
-            "0": {
-                "Professors": [
-                    "Mark Riedl (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "LMC 8910": {
         "Name": "Special Problems",
         "Description": "An independent study course",
@@ -56532,117 +55610,6 @@
                     "Robert Burgess (P)"
                 ],
                 "Campus Index": 0
-            }
-        }
-    },
-    "MGT 4803": {
-        "Name": "Buildng Sustainble Bus. Models",
-        "Description": "Permits a group of students and a professor to pursue areas of management not extensively treated in any other course.",
-        "Section Information": {
-            "A": {
-                "Professors": [
-                    "Andre Calmon (P)"
-                ],
-                "Campus Index": 0
-            },
-            "B": {
-                "Professors": [
-                    "Stuart Graham (P)"
-                ],
-                "Campus Index": 0
-            },
-            "C": {
-                "Professors": [
-                    "Barry Branch (P)"
-                ],
-                "Campus Index": 0
-            },
-            "D": {
-                "Professors": [
-                    "Barry Branch (P)"
-                ],
-                "Campus Index": 0
-            },
-            "E": {
-                "Professors": [
-                    "Yui Jin Kim (P)"
-                ],
-                "Campus Index": 0
-            },
-            "F": {
-                "Professors": [
-                    "Daniel Yue (P)"
-                ],
-                "Campus Index": 0
-            },
-            "G": {
-                "Professors": [
-                    "Michael Messner (P)"
-                ],
-                "Campus Index": 0
-            },
-            "H": {
-                "Professors": [
-                    "Zhaohu Fan (P)"
-                ],
-                "Campus Index": 0
-            },
-            "I": {
-                "Professors": [
-                    "Karthik Ramachandran",
-                    "Andre Calmon (P)"
-                ],
-                "Campus Index": 0
-            },
-            "L01": {
-                "Professors": [
-                    "Roxanne Moore",
-                    "Nakia Melecio (P)"
-                ],
-                "Campus Index": 0
-            },
-            "L02": {
-                "Professors": [
-                    "Roxanne Moore",
-                    "Nakia Melecio (P)"
-                ],
-                "Campus Index": 0
-            },
-            "L03": {
-                "Professors": [
-                    "Nakia Melecio (P)"
-                ],
-                "Campus Index": 0
-            },
-            "L06": {
-                "Professors": [
-                    "Yolanda Payne (P)"
-                ],
-                "Campus Index": 0
-            },
-            "L08": {
-                "Professors": [
-                    "Yolanda Payne (P)"
-                ],
-                "Campus Index": 0
-            },
-            "O": {
-                "Professors": [
-                    "Lizhen Xu (P)"
-                ],
-                "Campus Index": 0
-            },
-            "R": {
-                "Professors": [
-                    "Paul Voss (P)"
-                ],
-                "Campus Index": 1
-            },
-            "R1": {
-                "Professors": [
-                    "Paul Voss (P)"
-                ],
-                "Campus Index": 3
             }
         }
     },
@@ -57950,79 +56917,6 @@
             "A": {
                 "Professors": [
                     "Deborah Turner (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "MGT 8803": {
-        "Name": "Research in Entrepreneurship",
-        "Description": "Topics of current interest.",
-        "Section Information": {
-            "DRA": {
-                "Professors": [
-                    "Astrid Marinoni (P)"
-                ],
-                "Campus Index": 0
-            },
-            "EMF": {
-                "Professors": [
-                    "Daniel Yue (P)"
-                ],
-                "Campus Index": 8
-            },
-            "EMG": {
-                "Professors": [
-                    "Yui Jin Kim (P)"
-                ],
-                "Campus Index": 8
-            },
-            "EMJ": {
-                "Professors": [
-                    "Stuart Graham (P)"
-                ],
-                "Campus Index": 8
-            },
-            "EML": {
-                "Professors": [
-                    "Roy Richards (P)",
-                    "Deven Desai"
-                ],
-                "Campus Index": 8
-            },
-            "F": {
-                "Professors": [
-                    "Daniel Yue (P)"
-                ],
-                "Campus Index": 0
-            },
-            "G": {
-                "Professors": [
-                    "Yui Jin Kim (P)"
-                ],
-                "Campus Index": 0
-            },
-            "H": {
-                "Professors": [
-                    "Jerry Perullo (P)"
-                ],
-                "Campus Index": 0
-            },
-            "OAN": {
-                "Professors": [
-                    "Ryan Blunck (P)"
-                ],
-                "Campus Index": 7
-            },
-            "OSZ": {
-                "Professors": [
-                    "Ryan Blunck (P)"
-                ],
-                "Campus Index": 6
-            },
-            "U": {
-                "Professors": [
-                    "Ryan Blunck (P)"
                 ],
                 "Campus Index": 0
             }
@@ -59961,18 +58855,6 @@
             }
         }
     },
-    "MSE 4803": {
-        "Name": "Deform and Fracture of Mtls",
-        "Description": "No course description is available.",
-        "Section Information": {
-            "A": {
-                "Professors": [
-                    "Naresh Thadhani (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "MSE 6110": {
         "Name": "Trans Electron Microscop",
         "Description": "Introduction to the kinematical electron scattering theory, optics in TEM, diffraction contrast imaging of defects, dynamical electron diffraction effects; and chemical microanalysis using EDS.",
@@ -60590,66 +59472,6 @@
             "S": {
                 "Professors": [
                     "Anju Toor (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "MSE 8803": {
-        "Name": "Soft Nano Bio Materials",
-        "Description": "Special topic offering of current interest not included in regular courses.",
-        "Section Information": {
-            "B": {
-                "Professors": [
-                    "Vladimir Tsukruk (P)"
-                ],
-                "Campus Index": 0
-            },
-            "BB": {
-                "Professors": [
-                    "Renita Washington (P)"
-                ],
-                "Campus Index": 0
-            },
-            "C": {
-                "Professors": [
-                    "Arun Gokhale (P)"
-                ],
-                "Campus Index": 0
-            },
-            "EMV": {
-                "Professors": [
-                    "Eric Vogel (P)"
-                ],
-                "Campus Index": 0
-            },
-            "F": {
-                "Professors": [
-                    "Renita Washington (P)"
-                ],
-                "Campus Index": 0
-            },
-            "HG": {
-                "Professors": [
-                    "Hamid Garmestani (P)"
-                ],
-                "Campus Index": 0
-            },
-            "LMG": {
-                "Professors": [
-                    "Lauren Garten (P)"
-                ],
-                "Campus Index": 0
-            },
-            "MD": {
-                "Professors": [
-                    "Seung Soon Jang (P)"
-                ],
-                "Campus Index": 0
-            },
-            "P": {
-                "Professors": [
-                    "Naresh Thadhani (P)"
                 ],
                 "Campus Index": 0
             }
@@ -63834,36 +62656,6 @@
             "A": {
                 "Professors": [
                     "Morag Burke (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "MATH 8803": {
-        "Name": "Nonlinear Dispersive Equations",
-        "Description": "This course enables the School of Mathematics to comply with requests for courses in selected topics.",
-        "Section Information": {
-            "CHE": {
-                "Professors": [
-                    "Gong Chen (P)"
-                ],
-                "Campus Index": 0
-            },
-            "DUN": {
-                "Professors": [
-                    "Alexander Dunn (P)"
-                ],
-                "Campus Index": 0
-            },
-            "HOM": {
-                "Professors": [
-                    "Jennifer Hom (P)"
-                ],
-                "Campus Index": 0
-            },
-            "MAT": {
-                "Professors": [
-                    "Heinrich Matzinger (P)"
                 ],
                 "Campus Index": 0
             }
@@ -68033,30 +66825,6 @@
             }
         }
     },
-    "ME 4803": {
-        "Name": "Electric Vehicle and the Grid",
-        "Description": "Special topic offerings of current interest not included in regular courses.",
-        "Section Information": {
-            "QMT": {
-                "Professors": [
-                    "Michael Tinskey (P)"
-                ],
-                "Campus Index": 2
-            },
-            "STE": {
-                "Professors": [
-                    "Aaron Stebner (P)"
-                ],
-                "Campus Index": 0
-            },
-            "TIN": {
-                "Professors": [
-                    "Michael Tinskey (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "ME 4853": {
         "Name": "ML fundamentals",
         "Description": "ME Special Topics with lab component",
@@ -69694,43 +68462,6 @@
             "AL": {
                 "Professors": [
                     "Kyriakos Vamvoudakis (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "ME 8803": {
-        "Name": "Spec Topic-Manufacturing",
-        "Description": "Special topic offerings of current interest in manufacturing not included in regular courses.",
-        "Section Information": {
-            "HTS": {
-                "Professors": [
-                    "Narayanamoorthy Sankar (P)"
-                ],
-                "Campus Index": 0
-            },
-            "PSE": {
-                "Professors": [
-                    "James Meredith",
-                    "Christopher Luettgen (P)"
-                ],
-                "Campus Index": 0
-            },
-            "QHT": {
-                "Professors": [
-                    "Narayanamoorthy Sankar (P)"
-                ],
-                "Campus Index": 2
-            },
-            "QMT": {
-                "Professors": [
-                    "Michael Tinskey (P)"
-                ],
-                "Campus Index": 2
-            },
-            "TIN": {
-                "Professors": [
-                    "Michael Tinskey (P)"
                 ],
                 "Campus Index": 0
             }
@@ -72830,37 +71561,6 @@
             }
         }
     },
-    "NEUR 4803": {
-        "Name": "Neuroplasticity &amp; Neurodegen",
-        "Description": "Topics of current interest not included in the regular course offerings.",
-        "Section Information": {
-            "A": {
-                "Professors": [
-                    "Christina Ragan (P)"
-                ],
-                "Campus Index": 0
-            },
-            "B": {
-                "Professors": [
-                    "Katharine McCann (P)"
-                ],
-                "Campus Index": 0
-            },
-            "C": {
-                "Professors": [
-                    "Liang Han (P)"
-                ],
-                "Campus Index": 0
-            },
-            "D": {
-                "Professors": [
-                    "Tansu Celikel",
-                    "Ratan Murty (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "NRE 2120": {
         "Name": "Elements of NRE",
         "Description": "Introduction to nuclear and radiological engineering concepts and applications.",
@@ -75691,24 +74391,6 @@
             }
         }
     },
-    "PHYS 4803": {
-        "Name": "Physics of Cognition",
-        "Description": "Courses in special topics of current interest in physics are presented from time to time.",
-        "Section Information": {
-            "B": {
-                "Professors": [
-                    "Audrey Sederberg (P)"
-                ],
-                "Campus Index": 0
-            },
-            "SS": {
-                "Professors": [
-                    "Sven Simon (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "PHYS 4833": {
         "Name": "Cell&amp;Tissue Biological Physics",
         "Description": "Courses in special topics of current interest in physics are presented from time to time.",
@@ -75842,24 +74524,6 @@
             "A": {
                 "Professors": [
                     "Daniel Goldman (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "PHYS 8803": {
-        "Name": "Special Topics",
-        "Description": "No course description is available.",
-        "Section Information": {
-            "LC": {
-                "Professors": [
-                    "Laura Cadonati (P)"
-                ],
-                "Campus Index": 0
-            },
-            "RG": {
-                "Professors": [
-                    "Roman Grigoriev (P)"
                 ],
                 "Campus Index": 0
             }
@@ -77419,34 +76083,6 @@
             }
         }
     },
-    "PSYC 4803": {
-        "Name": "Psych of Lifelong Learning",
-        "Description": "Special topics or courses of an experimental nature.",
-        "Section Information": {
-            "A": {
-                "Professors": [
-                    "Phillip Ackerman (P)"
-                ],
-                "Campus Index": 0
-            },
-            "E": {
-                "Professors": [
-                    "Woon Ju Park (P)"
-                ],
-                "Campus Index": 0
-            },
-            "F": {
-                "Professors": [
-                    "Bruce Walker (P)"
-                ],
-                "Campus Index": 0
-            },
-            "H": {
-                "Professors": [],
-                "Campus Index": 0
-            }
-        }
-    },
     "PSYC 4900": {
         "Name": "Special Problems",
         "Description": "Students engage in individual and group projects under the direction of a faculty member.",
@@ -77843,18 +76479,6 @@
             "D": {
                 "Professors": [
                     "Scott Moffat (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "PSYC 8803": {
-        "Name": "Spec Top-Applied Stat",
-        "Description": "Covers current issues and recent advances in the application of statistical methods to research in psychology.  Instructors select the specific focus for a given term.",
-        "Section Information": {
-            "C": {
-                "Professors": [
-                    "Eunbee Kim (P)"
                 ],
                 "Campus Index": 0
             }
@@ -78648,24 +77272,6 @@
             }
         }
     },
-    "PUBP 4803": {
-        "Name": "Public Finance Policy",
-        "Description": "SPECIAL TOPICS",
-        "Section Information": {
-            "DJ": {
-                "Professors": [
-                    "David Jackson (P)"
-                ],
-                "Campus Index": 0
-            },
-            "GP": {
-                "Professors": [
-                    "Georgia Persons (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
     "PUBP 4813": {
         "Name": "Sports Law and Public Policy",
         "Description": "Topics of interest not covered in the regular course offerings.",
@@ -79024,55 +77630,6 @@
             "AM": {
                 "Professors": [
                     "Alan Marco (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "PUBP 8803": {
-        "Name": "Special Topics--Health Disprty",
-        "Description": "No course description is available.",
-        "Section Information": {
-            "GP": {
-                "Professors": [
-                    "Georgia Persons (P)"
-                ],
-                "Campus Index": 0
-            },
-            "JB": {
-                "Professors": [
-                    "Justin Brown (P)"
-                ],
-                "Campus Index": 0
-            },
-            "JW": {
-                "Professors": [
-                    "John Walsh (P)"
-                ],
-                "Campus Index": 0
-            },
-            "MCH": {
-                "Professors": [
-                    "Heather McNay (P)",
-                    "Laura Huffman"
-                ],
-                "Campus Index": 0
-            },
-            "MM": {
-                "Professors": [
-                    "Milton Mueller (P)"
-                ],
-                "Campus Index": 0
-            },
-            "OCY": {
-                "Professors": [
-                    "Anant Lummis (P)"
-                ],
-                "Campus Index": 7
-            },
-            "SG": {
-                "Professors": [
-                    "Sergio Caltagirone (P)"
                 ],
                 "Campus Index": 0
             }
@@ -79635,24 +78192,6 @@
             "B": {
                 "Professors": [
                     "Miguel Rosas Buendia (P)"
-                ],
-                "Campus Index": 0
-            }
-        }
-    },
-    "SPAN 8803": {
-        "Name": "Special Topics",
-        "Description": "Special topics in Spanish Language and Literature.",
-        "Section Information": {
-            "A": {
-                "Professors": [
-                    "Juan Rodriguez (P)"
-                ],
-                "Campus Index": 0
-            },
-            "B": {
-                "Professors": [
-                    "Juan Rodriguez (P)"
                 ],
                 "Campus Index": 0
             }
@@ -84550,6 +83089,707 @@
             }
         }
     },
+    "AE 4803-AIM": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "AIM": {
+                "Professors": [
+                    "Elizabeth Qian (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "AE 4803-CON": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CON": {
+                "Professors": [
+                    "Brian German (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "AE 4803-FTE": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "FTE": {
+                "Professors": [
+                    "Christopher Maston (P)",
+                    "Jonathan Rogers"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "AE 4803-NUM": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "NUM": {
+                "Professors": [
+                    "Elizabeth Qian (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "AE 4803-QGE": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "QGE": {
+                "Professors": [
+                    "Adam Steinberg (P)"
+                ],
+                "Campus Index": 2
+            }
+        }
+    },
+    "AE 4803-SLD": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SLD": {
+                "Professors": [
+                    "Ziqin Ni (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "AE 8803-NUM": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "NUM": {
+                "Professors": [
+                    "Elizabeth Qian (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "AE 8803-Q3": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "Q3": {
+                "Professors": [
+                    "Narayanamoorthy Sankar (P)"
+                ],
+                "Campus Index": 3
+            }
+        }
+    },
+    "AE 8803-QGE": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "QGE": {
+                "Professors": [
+                    "Adam Steinberg (P)"
+                ],
+                "Campus Index": 2
+            }
+        }
+    },
+    "AE 8803-QNU": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "QNU": {
+                "Professors": [
+                    "Elizabeth Qian (P)"
+                ],
+                "Campus Index": 2
+            }
+        }
+    },
+    "AE 8803-QRA": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "QRA": {
+                "Professors": [
+                    "Juergen Rauleder (P)"
+                ],
+                "Campus Index": 2
+            }
+        }
+    },
+    "AE 8803-RAL": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "RAL": {
+                "Professors": [
+                    "Juergen Rauleder (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "AE 8803-SLD": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SLD": {
+                "Professors": [
+                    "Ziqin Ni (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "AE 8803-TSI": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "TSI": {
+                "Professors": [
+                    "Panagiotis Tsiotras (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ASE 8803-QSY": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "QSY": {
+                "Professors": [
+                    "Robert Thomas (P)"
+                ],
+                "Campus Index": 2
+            }
+        }
+    },
+    "ARCH 4803-A": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "A": {
+                "Professors": [
+                    "John Peponis (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ARCH 4803-AB": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "AB": {
+                "Professors": [],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ARCH 4803-DS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "DS": {
+                "Professors": [],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ARCH 4803-EDJ": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "EDJ": {
+                "Professors": [
+                    "Ellen Dunham-Jones (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ARCH 4803-HC": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "HC": {
+                "Professors": [
+                    "Hui Cai (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ARCH 4803-JC": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "JC": {
+                "Professors": [
+                    "Amy Stone",
+                    "James Cramer (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ARCH 4803-SK": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SK": {
+                "Professors": [
+                    "Sabir Khan (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ARCH 8803-DS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "DS": {
+                "Professors": [],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ARCH 8803-JC": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "JC": {
+                "Professors": [
+                    "Amy Stone",
+                    "James Cramer (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ARCH 8803-SK": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SK": {
+                "Professors": [
+                    "Sabir Khan (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "BIOS 4803-BAL": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "BAL": {
+                "Professors": [
+                    "Edward Balog (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "BIOS 4803-HAR": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "HAR": {
+                "Professors": [
+                    "Colin Harrison (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "BIOS 4803-ROS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "ROS": {
+                "Professors": [
+                    "Michele Rosbruck (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "BIOS 4803-SHI": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SHI": {
+                "Professors": [
+                    "Minoru Shinohara (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "BIOL 8803-LOB": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "LOB": {
+                "Professors": [
+                    "Kirill Lobachev (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "BIOL 8803-MEN": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "MEN": {
+                "Professors": [
+                    "Joseph Mendelson (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "BMED 4803-HOL": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "HOL": {
+                "Professors": [
+                    "Scott Hollister (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "BMED 4803-NNB": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "NNB": {
+                "Professors": [
+                    "Haley Steele",
+                    "Simon Sponberg",
+                    "Timothy Cope (P)",
+                    "Thackery Brown"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "BC 8803-01": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "01": {
+                "Professors": [
+                    "Alexander Paul (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "BC 8803-DT": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "DT": {
+                "Professors": [
+                    "Leonardo Garcia Bottia (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CHBE 4803-CJ": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CJ": {
+                "Professors": [
+                    "Christopher Jones (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CHBE 4803-PPY": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "PPY": {
+                "Professors": [
+                    "Pamela Peralta-Yahya (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CHBE 4803-SN": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SN": {
+                "Professors": [
+                    "Sankar Nair (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CHBE 4803-VJ": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "VJ": {
+                "Professors": [
+                    "Vida Jamali (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CHBE 8803-PPY": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "PPY": {
+                "Professors": [
+                    "Pamela Peralta-Yahya (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CHBE 8803-PSE": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "PSE": {
+                "Professors": [
+                    "James Meredith (P)",
+                    "Christopher Luettgen"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CHBE 8803-SN": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SN": {
+                "Professors": [
+                    "Sankar Nair (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CHBE 8803-VJ": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "VJ": {
+                "Professors": [
+                    "Vida Jamali (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CHEM 4803-CS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CS": {
+                "Professors": [
+                    "Andreas Bommarius",
+                    "Carsten Sievers (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CHEM 4803-FC": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "FC": {
+                "Professors": [
+                    "Christoph Fahrni (P)",
+                    "Amit Reddi"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CHEM 4803-PPY": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "PPY": {
+                "Professors": [
+                    "Pamela Peralta-Yahya (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CHEM 4803-SF": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SF": {
+                "Professors": [
+                    "Stefan France (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CHEM 8803-CS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CS": {
+                "Professors": [
+                    "Andreas Bommarius",
+                    "Carsten Sievers (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CEE 4803-A": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "A": {
+                "Professors": [
+                    "Eric Marks (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CEE 4803-B": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "B": {
+                "Professors": [
+                    "Jorge Laval (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CEE 4803-C": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "C": {
+                "Professors": [
+                    "Sharon Just (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CEE 4803-D": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "D": {
+                "Professors": [
+                    "Sheng Dai (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CEE 4803-E": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "E": {
+                "Professors": [
+                    "Sharon Just (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CEE 4803-F": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "F": {
+                "Professors": [
+                    "Yi-Chang Tsai (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CEE 4803-G": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "G": {
+                "Professors": [
+                    "Jorge Macedo (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CEE 4803-H": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "H": {
+                "Professors": [
+                    "Abdul-Hamid Zureick (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CEE 4803-I": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "I": {
+                "Professors": [
+                    "Randall Guensler (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "CEE 4803-J": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "J": {
+                "Professors": [
+                    "Francesco Fedele (P)",
+                    "Mark Leibert"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
     "CX 4803-GPU": {
         "Name": "",
         "Description": "",
@@ -85161,6 +84401,222 @@
             }
         }
     },
+    "EAS 4803-AR": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "AR": {
+                "Professors": [
+                    "Alexander Robel (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "EAS 4803-AS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "AS": {
+                "Professors": [
+                    "Ali Sarhadi (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "EAS 4803-CR": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CR": {
+                "Professors": [
+                    "Christopher Reinhard (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "EAS 4803-FH": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "FH": {
+                "Professors": [
+                    "Felix Herrmann (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "EAS 4803-SLD": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SLD": {
+                "Professors": [
+                    "Ziqin Ni (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "EAS 4803-SS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SS": {
+                "Professors": [
+                    "Sven Simon (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "EAS 8803-A": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "A": {
+                "Professors": [
+                    "Alexander Robel (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "EAS 8803-AS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "AS": {
+                "Professors": [
+                    "Ali Sarhadi (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "EAS 8803-CR": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CR": {
+                "Professors": [
+                    "Christopher Reinhard (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "EAS 8803-FH": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "FH": {
+                "Professors": [
+                    "Felix Herrmann (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "EAS 8803-MP": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "MP": {
+                "Professors": [
+                    "Michael Porter (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "EAS 8803-SLD": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SLD": {
+                "Professors": [
+                    "Ziqin Ni (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "EAS 8803-SS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SS": {
+                "Professors": [
+                    "Sven Simon (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECON 4803-CR2": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CR2": {
+                "Professors": [
+                    "Christine Ries (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECON 8803-CR2": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CR2": {
+                "Professors": [
+                    "Christine Ries (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECON 8803-GD3": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "GD3": {
+                "Professors": [
+                    "Gaurav Doshi (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECON 8803-GD5": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "GD5": {
+                "Professors": [
+                    "Gaurav Doshi (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ECON 8803-TB1": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "TB1": {
+                "Professors": [
+                    "Tibor Besedes (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
     "ECE 4803-CSD": {
         "Name": "",
         "Description": "",
@@ -85324,6 +84780,1498 @@
             "SCH": {
                 "Professors": [
                     "Gregory Durgin (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "FREN 8803-B": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "B": {
+                "Professors": [
+                    "Stephanie Boulard (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "GT 4803-SDG": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SDG": {
+                "Professors": [
+                    "Amy Henry",
+                    "Jennifer Hirsch (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "GRMN 8803-A": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "A": {
+                "Professors": [
+                    "Britta Kallin (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "GRMN 8803-B": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "B": {
+                "Professors": [
+                    "Annika Orich (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ISYE 4803-AYE": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "AYE": {
+                "Professors": [
+                    "Turgay Ayer (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ISYE 4803-MOU": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "MOU": {
+                "Professors": [],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ISYE 4803-PAN": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "PAN": {
+                "Professors": [
+                    "Ashwin Pananjady Martin (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ISYE 4803-SCH": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SCH": {
+                "Professors": [
+                    "Katya Scheinberg (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ISYE 4803-SHA": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SHA": {
+                "Professors": [
+                    "Gunter Sharp (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ISYE 8803-ALE": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "ALE": {
+                "Professors": [
+                    "Christos Alexopoulos (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ISYE 8803-AQ": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "AQ": {
+                "Professors": [
+                    "Jye-Chyi Lu (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ISYE 8803-CEE": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CEE": {
+                "Professors": [
+                    "Laurie Garrow (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ISYE 8803-LAN": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "LAN": {
+                "Professors": [
+                    "Guanghui Lan (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ISYE 8803-O01": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "O01": {
+                "Professors": [
+                    "Kamran Paynabar (P)"
+                ],
+                "Campus Index": 7
+            }
+        }
+    },
+    "ISYE 8803-OAN": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "OAN": {
+                "Professors": [
+                    "Kamran Paynabar (P)"
+                ],
+                "Campus Index": 7
+            }
+        }
+    },
+    "ISYE 8803-Q": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "Q": {
+                "Professors": [
+                    "Jye-Chyi Lu (P)"
+                ],
+                "Campus Index": 2
+            }
+        }
+    },
+    "ISYE 8803-Q01": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "Q01": {
+                "Professors": [
+                    "Kamran Paynabar (P)"
+                ],
+                "Campus Index": 2
+            }
+        }
+    },
+    "ISYE 8803-STE": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "STE": {
+                "Professors": [
+                    "Lauren Steimle (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ID 8803-0": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "0": {
+                "Professors": [
+                    "Roger Ball (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ID 8803-1": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "1": {
+                "Professors": [
+                    "Barbara Swindell Berryman",
+                    "Herb Velazquez (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ID 8803-AUT": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "AUT": {
+                "Professors": [
+                    "David Lynn (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ID 8803-FV": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "FV": {
+                "Professors": [
+                    "Florian Vollmer (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ID 8803-LMT": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "LMT": {
+                "Professors": [
+                    "Leandro Miletto Tonetto (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ID 8803-SK": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SK": {
+                "Professors": [
+                    "Sabir Khan (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ID 8803-STA": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "STA": {
+                "Professors": [
+                    "Abigale Stangl (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ID 8803-YW": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "YW": {
+                "Professors": [
+                    "Yixiao Wang (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 4803-AB": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "AB": {
+                "Professors": [
+                    "Austin Beacham (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 4803-AM": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "AM": {
+                "Professors": [
+                    "Amanda Meng (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 4803-DL": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "DL": {
+                "Professors": [
+                    "Dennis Lockhart (P)",
+                    "Lawrence Silverman"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 4803-JJ": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "JJ": {
+                "Professors": [
+                    "Dahsol Jun (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 4803-JL": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "JL": {
+                "Professors": [
+                    "Jon Lindsay (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 4803-NN": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "NN": {
+                "Professors": [
+                    "Nicholas Nelson (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 4803-TR": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "TR": {
+                "Professors": [
+                    "Thomas Roberts (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-AF": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "AF": {
+                "Professors": [
+                    "Alberto Fuentes (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-AF2": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "AF2": {
+                "Professors": [
+                    "Alberto Fuentes (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-BW": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "BW": {
+                "Professors": [
+                    "Brian Woodall (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-DL": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "DL": {
+                "Professors": [
+                    "Dennis Lockhart (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-ET": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "ET": {
+                "Professors": [
+                    "Evgeny Tikhonravov (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-ET2": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "ET2": {
+                "Professors": [
+                    "Evgeny Tikhonravov (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-JJ": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "JJ": {
+                "Professors": [
+                    "Dahsol Jun (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-KB": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "KB": {
+                "Professors": [
+                    "Kirk Bowman (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-KL": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "KL": {
+                "Professors": [
+                    "Kuen-Da Lin (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-KW": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "KW": {
+                "Professors": [
+                    "Katja Weber (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-MF": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "MF": {
+                "Professors": [
+                    "Mikulas Fabry (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-QIS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "QIS": {
+                "Professors": [
+                    "Robert Hines (P)"
+                ],
+                "Campus Index": 2
+            }
+        }
+    },
+    "INTA 8803-RS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "RS": {
+                "Professors": [
+                    "Rana Shabb (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-TC": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "TC": {
+                "Professors": [
+                    "Tarun Chaudhary (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-TM": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "TM": {
+                "Professors": [],
+                "Campus Index": 0
+            }
+        }
+    },
+    "INTA 8803-TR": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "TR": {
+                "Professors": [
+                    "Thomas Roberts (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "LMC 8803-0": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "0": {
+                "Professors": [
+                    "Mark Riedl (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-A": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "A": {
+                "Professors": [
+                    "Andre Calmon (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-B": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "B": {
+                "Professors": [
+                    "Stuart Graham (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-C": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "C": {
+                "Professors": [
+                    "Barry Branch (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-D": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "D": {
+                "Professors": [
+                    "Barry Branch (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-E": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "E": {
+                "Professors": [
+                    "Yui Jin Kim (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-F": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "F": {
+                "Professors": [
+                    "Daniel Yue (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-G": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "G": {
+                "Professors": [
+                    "Michael Messner (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-H": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "H": {
+                "Professors": [
+                    "Zhaohu Fan (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-I": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "I": {
+                "Professors": [
+                    "Karthik Ramachandran",
+                    "Andre Calmon (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-L01": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "L01": {
+                "Professors": [
+                    "Roxanne Moore",
+                    "Nakia Melecio (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-L02": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "L02": {
+                "Professors": [
+                    "Roxanne Moore",
+                    "Nakia Melecio (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-L03": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "L03": {
+                "Professors": [
+                    "Nakia Melecio (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-L06": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "L06": {
+                "Professors": [
+                    "Yolanda Payne (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-L08": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "L08": {
+                "Professors": [
+                    "Yolanda Payne (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-O": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "O": {
+                "Professors": [
+                    "Lizhen Xu (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 4803-R": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "R": {
+                "Professors": [
+                    "Paul Voss (P)"
+                ],
+                "Campus Index": 1
+            }
+        }
+    },
+    "MGT 4803-R1": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "R1": {
+                "Professors": [
+                    "Paul Voss (P)"
+                ],
+                "Campus Index": 3
+            }
+        }
+    },
+    "MGT 8803-DRA": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "DRA": {
+                "Professors": [
+                    "Astrid Marinoni (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 8803-EMF": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "EMF": {
+                "Professors": [
+                    "Daniel Yue (P)"
+                ],
+                "Campus Index": 8
+            }
+        }
+    },
+    "MGT 8803-EMG": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "EMG": {
+                "Professors": [
+                    "Yui Jin Kim (P)"
+                ],
+                "Campus Index": 8
+            }
+        }
+    },
+    "MGT 8803-EMJ": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "EMJ": {
+                "Professors": [
+                    "Stuart Graham (P)"
+                ],
+                "Campus Index": 8
+            }
+        }
+    },
+    "MGT 8803-EML": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "EML": {
+                "Professors": [
+                    "Roy Richards (P)",
+                    "Deven Desai"
+                ],
+                "Campus Index": 8
+            }
+        }
+    },
+    "MGT 8803-F": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "F": {
+                "Professors": [
+                    "Daniel Yue (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 8803-G": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "G": {
+                "Professors": [
+                    "Yui Jin Kim (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 8803-H": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "H": {
+                "Professors": [
+                    "Jerry Perullo (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MGT 8803-OAN": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "OAN": {
+                "Professors": [
+                    "Ryan Blunck (P)"
+                ],
+                "Campus Index": 7
+            }
+        }
+    },
+    "MGT 8803-OSZ": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "OSZ": {
+                "Professors": [
+                    "Ryan Blunck (P)"
+                ],
+                "Campus Index": 6
+            }
+        }
+    },
+    "MGT 8803-U": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "U": {
+                "Professors": [
+                    "Ryan Blunck (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MSE 4803-A": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "A": {
+                "Professors": [
+                    "Naresh Thadhani (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MSE 8803-B": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "B": {
+                "Professors": [
+                    "Vladimir Tsukruk (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MSE 8803-BB": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "BB": {
+                "Professors": [
+                    "Renita Washington (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MSE 8803-C": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "C": {
+                "Professors": [
+                    "Arun Gokhale (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MSE 8803-EMV": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "EMV": {
+                "Professors": [
+                    "Eric Vogel (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MSE 8803-F": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "F": {
+                "Professors": [
+                    "Renita Washington (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MSE 8803-HG": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "HG": {
+                "Professors": [
+                    "Hamid Garmestani (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MSE 8803-LMG": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "LMG": {
+                "Professors": [
+                    "Lauren Garten (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MSE 8803-MD": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "MD": {
+                "Professors": [
+                    "Seung Soon Jang (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MSE 8803-P": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "P": {
+                "Professors": [
+                    "Naresh Thadhani (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MATH 8803-CHE": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "CHE": {
+                "Professors": [
+                    "Gong Chen (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MATH 8803-DUN": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "DUN": {
+                "Professors": [
+                    "Alexander Dunn (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MATH 8803-HOM": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "HOM": {
+                "Professors": [
+                    "Jennifer Hom (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "MATH 8803-MAT": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "MAT": {
+                "Professors": [
+                    "Heinrich Matzinger (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ME 4803-QMT": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "QMT": {
+                "Professors": [
+                    "Michael Tinskey (P)"
+                ],
+                "Campus Index": 2
+            }
+        }
+    },
+    "ME 4803-STE": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "STE": {
+                "Professors": [
+                    "Aaron Stebner (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ME 4803-TIN": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "TIN": {
+                "Professors": [
+                    "Michael Tinskey (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ME 8803-HTS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "HTS": {
+                "Professors": [
+                    "Narayanamoorthy Sankar (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ME 8803-PSE": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "PSE": {
+                "Professors": [
+                    "James Meredith",
+                    "Christopher Luettgen (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "ME 8803-QHT": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "QHT": {
+                "Professors": [
+                    "Narayanamoorthy Sankar (P)"
+                ],
+                "Campus Index": 2
+            }
+        }
+    },
+    "ME 8803-QMT": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "QMT": {
+                "Professors": [
+                    "Michael Tinskey (P)"
+                ],
+                "Campus Index": 2
+            }
+        }
+    },
+    "ME 8803-TIN": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "TIN": {
+                "Professors": [
+                    "Michael Tinskey (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "NEUR 4803-A": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "A": {
+                "Professors": [
+                    "Christina Ragan (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "NEUR 4803-B": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "B": {
+                "Professors": [
+                    "Katharine McCann (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "NEUR 4803-C": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "C": {
+                "Professors": [
+                    "Liang Han (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "NEUR 4803-D": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "D": {
+                "Professors": [
+                    "Tansu Celikel",
+                    "Ratan Murty (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PHYS 4803-B": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "B": {
+                "Professors": [
+                    "Audrey Sederberg (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PHYS 4803-SS": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SS": {
+                "Professors": [
+                    "Sven Simon (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PHYS 8803-LC": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "LC": {
+                "Professors": [
+                    "Laura Cadonati (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PHYS 8803-RG": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "RG": {
+                "Professors": [
+                    "Roman Grigoriev (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PSYC 4803-A": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "A": {
+                "Professors": [
+                    "Phillip Ackerman (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PSYC 4803-E": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "E": {
+                "Professors": [
+                    "Woon Ju Park (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PSYC 4803-F": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "F": {
+                "Professors": [
+                    "Bruce Walker (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PSYC 4803-H": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "H": {
+                "Professors": [],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PSYC 8803-C": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "C": {
+                "Professors": [
+                    "Eunbee Kim (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PUBP 4803-DJ": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "DJ": {
+                "Professors": [
+                    "David Jackson (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PUBP 4803-GP": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "GP": {
+                "Professors": [
+                    "Georgia Persons (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PUBP 8803-GP": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "GP": {
+                "Professors": [
+                    "Georgia Persons (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PUBP 8803-JB": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "JB": {
+                "Professors": [
+                    "Justin Brown (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PUBP 8803-JW": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "JW": {
+                "Professors": [
+                    "John Walsh (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PUBP 8803-MCH": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "MCH": {
+                "Professors": [
+                    "Heather McNay (P)",
+                    "Laura Huffman"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PUBP 8803-MM": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "MM": {
+                "Professors": [
+                    "Milton Mueller (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "PUBP 8803-OCY": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "OCY": {
+                "Professors": [
+                    "Anant Lummis (P)"
+                ],
+                "Campus Index": 7
+            }
+        }
+    },
+    "PUBP 8803-SG": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "SG": {
+                "Professors": [
+                    "Sergio Caltagirone (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "SPAN 8803-A": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "A": {
+                "Professors": [
+                    "Juan Rodriguez (P)"
+                ],
+                "Campus Index": 0
+            }
+        }
+    },
+    "SPAN 8803-B": {
+        "Name": "",
+        "Description": "",
+        "Section Information": {
+            "B": {
+                "Professors": [
+                    "Juan Rodriguez (P)"
                 ],
                 "Campus Index": 0
             }
