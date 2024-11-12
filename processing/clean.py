@@ -5,15 +5,8 @@ def read_data(filePath):
         data = json.load(file)
     return data
 
-def clean_data_relevant_courses(data):
-    subjects_requried = {"CX", "CSE", "CS", "ECE", "CM"}
-    relevant_courses = {}
-    courses = data["courses"]
-    for key in courses.keys():
-        subject = key.split(" ")
-        if subject[0] in subjects_requried:
-            relevant_courses[key] = courses[key]
-    return relevant_courses
+def extract_courses(data):
+    return data["courses"]
 
 def extract_sections(raw_sections):
     course_sections = {}
@@ -48,10 +41,12 @@ def create_data_model(relevant_courses):
     return clean_data_model
 
 def special_topics_design(clean_data_model):
-    special_topics_classes = {"CX 4803", "CS 4803", "CS 8803", "CSE 4803", "CSE 8803", "ECE 8803", "ECE 4803"}
+    special_topics_classes = []
     new_entries = {}
+
     for key in clean_data_model.keys():
-        if key in special_topics_classes:
+        course_number_isolate = key.split(" ")[1]
+        if course_number_isolate == "4803" or course_number_isolate == "8803":
             all_section_info = clean_data_model[key]["Section Information"]
             for section in all_section_info.keys(): 
                 new_entries[key + "-" + section] = {
@@ -61,9 +56,12 @@ def special_topics_design(clean_data_model):
                         section: all_section_info[section]
                     }
                 }
+            special_topics_classes.append(key)
+    
     for sp_class in special_topics_classes:
         if sp_class in clean_data_model.keys():
             del clean_data_model[sp_class]
+    
     clean_data_model = clean_data_model | new_entries
     return clean_data_model
 
@@ -75,13 +73,26 @@ def manual_data_merging(clean_data_model):
             clean_data_model[key]["Description"] = manual_data[key]["Description"]
     return clean_data_model
 
+
+def delete_irrelevant_classes(clean_data_model):
+    doctoral_thesis = []
+    for key in clean_data_model.keys():
+        if key.split(" ")[1] == "9000":
+            doctoral_thesis.append(key)
+    
+    for curr_class in doctoral_thesis:
+        del clean_data_model[curr_class]
+
+    return clean_data_model
+
 if __name__ == "__main__":
     filePath = "../DataSource/data.json"
     data = read_data(filePath)
-    relevant_courses = clean_data_relevant_courses(data)
+    relevant_courses = extract_courses(data)
     clean_data_model = create_data_model(relevant_courses)
     clean_data_model = special_topics_design(clean_data_model)
     clean_data_model = manual_data_merging(clean_data_model)
+    clean_data_model = delete_irrelevant_classes(clean_data_model)
 
     with open("data_clean.json", "w") as json_file:
         json.dump(clean_data_model, json_file, indent=4)
