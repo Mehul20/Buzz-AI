@@ -9,7 +9,7 @@ def bert_vectorization():
     course_ids = []
     all_vectors = []
     for course_id in data.keys():
-        course_description = data[course_id]["Description"]
+        course_description = "Name:" + data[course_id]["Name"]  + ". Course Description:" + data[course_id]["Description"]
         curr_vector = list(model.encode(course_description))
         course_ids.append(course_id)
         all_vectors.append(curr_vector)
