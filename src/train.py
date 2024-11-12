@@ -24,5 +24,4 @@ def facebook_AI_Search(all_vectors):
     faiss.write_index(faiss_index, "../Processed/faiss_index.index")
 
 all_vectors = bert_vectorization()
-print("DONE")
-facebook_AI_Search(all_vectors[:3])
+facebook_AI_Search(all_vectors)
