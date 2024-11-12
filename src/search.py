@@ -23,6 +23,6 @@ def convert_top_results_into_data(top_results):
         class_name = data[curr_result]["Name"]
         print(curr_result, class_name)
 
-user_query = "computer architecture"
+user_query = "dynamics"
 top_results = similarity_for_query(user_query)
 convert_top_results_into_data(top_results)

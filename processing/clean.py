@@ -6,13 +6,11 @@ def read_data(filePath):
     return data
 
 def clean_data_relevant_courses(data):
-    subjects_requried = {"CX", "CSE", "CS", "ECE", "CM"}
+    #subjects_requried = {"CX", "CSE", "CS", "ECE", "CM"}
     relevant_courses = {}
     courses = data["courses"]
     for key in courses.keys():
-        subject = key.split(" ")
-        if subject[0] in subjects_requried:
-            relevant_courses[key] = courses[key]
+        relevant_courses[key] = courses[key]
     return relevant_courses
 
 def extract_sections(raw_sections):
@@ -48,10 +46,12 @@ def create_data_model(relevant_courses):
     return clean_data_model
 
 def special_topics_design(clean_data_model):
-    special_topics_classes = {"CX 4803", "CS 4803", "CS 8803", "CSE 4803", "CSE 8803", "ECE 8803", "ECE 4803"}
+    special_topics_classes = []
     new_entries = {}
+    
     for key in clean_data_model.keys():
-        if key in special_topics_classes:
+        course_number_isolate = key.split(" ")[1]
+        if course_number_isolate == "4803" or course_number_isolate == "8803":
             all_section_info = clean_data_model[key]["Section Information"]
             for section in all_section_info.keys(): 
                 new_entries[key + "-" + section] = {
@@ -61,9 +61,12 @@ def special_topics_design(clean_data_model):
                         section: all_section_info[section]
                     }
                 }
+        special_topics_classes.append(key)
+    
     for sp_class in special_topics_classes:
         if sp_class in clean_data_model.keys():
             del clean_data_model[sp_class]
+    
     clean_data_model = clean_data_model | new_entries
     return clean_data_model
 
