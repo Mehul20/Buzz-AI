@@ -5,13 +5,8 @@ def read_data(filePath):
         data = json.load(file)
     return data
 
-def clean_data_relevant_courses(data):
-    #subjects_requried = {"CX", "CSE", "CS", "ECE", "CM"}
-    relevant_courses = {}
-    courses = data["courses"]
-    for key in courses.keys():
-        relevant_courses[key] = courses[key]
-    return relevant_courses
+def extract_courses(data):
+    return data["courses"]
 
 def extract_sections(raw_sections):
     course_sections = {}
@@ -81,7 +76,7 @@ def manual_data_merging(clean_data_model):
 if __name__ == "__main__":
     filePath = "../DataSource/data.json"
     data = read_data(filePath)
-    relevant_courses = clean_data_relevant_courses(data)
+    relevant_courses = extract_courses(data)
     clean_data_model = create_data_model(relevant_courses)
     clean_data_model = special_topics_design(clean_data_model)
     clean_data_model = manual_data_merging(clean_data_model)
