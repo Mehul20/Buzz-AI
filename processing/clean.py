@@ -43,7 +43,6 @@ def create_data_model(relevant_courses):
 def special_topics_design(clean_data_model):
     special_topics_classes = []
     new_entries = {}
-    favored_majors = {"CS", "CX", "ECE", "CM", "CSE"}
 
     for key in clean_data_model.keys():
         course_number_isolate = key.split(" ")[1]
