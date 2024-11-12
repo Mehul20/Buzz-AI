@@ -6,6 +6,7 @@ def read_file(filePath):
         data = json.load(file)
     return data
 
+# Unused - Might need them in the future
 def save_pickle_dictionary(dictionary, filePath):
     with open(filePath, "wb") as file:
         pickle.dump(dictionary, file)
