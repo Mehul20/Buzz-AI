@@ -1,5 +1,5 @@
 from sentence_transformers import SentenceTransformer
-from utils import read_file, save_pickle_dictionary
+from utils import read_file
 import numpy as np
 import faiss
 
