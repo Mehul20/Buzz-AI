@@ -73,6 +73,18 @@ def manual_data_merging(clean_data_model):
             clean_data_model[key]["Description"] = manual_data[key]["Description"]
     return clean_data_model
 
+
+def delete_irrelevant_classes(clean_data_model):
+    doctoral_thesis = []
+    for key in clean_data_model.keys():
+        if key.split(" ")[1] == "9000":
+            doctoral_thesis.append(key)
+    
+    for curr_class in doctoral_thesis:
+        del clean_data_model[curr_class]
+
+    return clean_data_model
+
 if __name__ == "__main__":
     filePath = "../DataSource/data.json"
     data = read_data(filePath)
@@ -80,6 +92,7 @@ if __name__ == "__main__":
     clean_data_model = create_data_model(relevant_courses)
     clean_data_model = special_topics_design(clean_data_model)
     clean_data_model = manual_data_merging(clean_data_model)
+    clean_data_model = delete_irrelevant_classes(clean_data_model)
 
     with open("data_clean.json", "w") as json_file:
         json.dump(clean_data_model, json_file, indent=4)
