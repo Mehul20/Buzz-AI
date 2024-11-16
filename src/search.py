@@ -22,6 +22,7 @@ def convert_top_results_into_data(top_results, subject):
     for curr_result in top_results:
         class_name = data[curr_result]["Name"]
         curr_subject = curr_result.split(" ")[0]
+        #class_description = data[curr_result]["Description"]
         if len(subject) == 0 or curr_subject in subject:
             print(curr_result, class_name)
 
