@@ -1,6 +1,7 @@
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 from transformers import BartForConditionalGeneration, BartTokenizer
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
+import search
 
 def get_T5():
     model = T5ForConditionalGeneration.from_pretrained('google/t5-v1_1-base')
@@ -42,7 +43,11 @@ def get_GPT_description(user_query):
     return detailed_description
 
 if __name__ == "__main__":
-    user_query = "Adv Operating Systems"
+    user_query = "Mutex Locks"
+    subject = ["CS"] # This needs can be empty if you want all classes
+    top_results, class_descriptions = search.run(user_query=user_query, subject=subject)
+    print(top_results)
+    print(class_descriptions)
     query = f"Describe {user_query} in detail."
     T5_description = get_T5_description(query)
     # BART_description = get_BART_description(query)

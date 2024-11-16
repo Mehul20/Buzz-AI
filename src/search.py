@@ -35,4 +35,4 @@ def run(query, sub):
 if __name__ == "__main__":
     user_query = "Mutex Locks"
     subject = ["CS"] # This needs can be empty if you want all classes
-    top_results, class_descriptions = run(user_query=user_query, subject=subject)
+    top_results, class_descriptions = run(query=user_query, sub=subject)
