@@ -22,11 +22,17 @@ def convert_top_results_into_data(top_results, subject):
     for curr_result in top_results:
         class_name = data[curr_result]["Name"]
         curr_subject = curr_result.split(" ")[0]
-        #class_description = data[curr_result]["Description"]
+        class_description = data[curr_result]["Description"]
         if len(subject) == 0 or curr_subject in subject:
             print(curr_result, class_name)
+    return class_description
 
-user_query = "Cryptography"
-subject = ["CS"] # This needs can be empty if you want all classes
-top_results = similarity_for_query(user_query)
-convert_top_results_into_data(top_results, subject)
+def run(query, sub):
+    top_results = similarity_for_query(query)
+    class_descriptions = convert_top_results_into_data(top_results, sub)
+    return top_results, class_descriptions
+
+if __name__ == "__main__":
+    user_query = "Mutex Locks"
+    subject = ["CS"] # This needs can be empty if you want all classes
+    top_results, class_descriptions = run(user_query=user_query, subject=subject)
