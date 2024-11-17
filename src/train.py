@@ -14,7 +14,7 @@ def bert_vectorization():
         if sp:
             research_area = data[course_id]["Section Information"][code]["Research Area"]
             if len(research_area) > 0:
-                course_vector += ". Professor Research Area: " + research_area
+                course_vector += ". Professor Background: " + research_area
         curr_vector = list(model.encode(course_vector))
         course_ids.append(course_id)
         all_vectors.append(curr_vector)
