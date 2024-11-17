@@ -25,7 +25,6 @@ def convert_top_results_into_data(top_results, subject):
         if len(subject) == 0 or curr_subject in subject:
             print(curr_result, class_name)
 
-
 user_query = "Cryptography"
 subject = ["CS"] # This needs can be empty if you want all classes
 top_results = similarity_for_query(user_query)
