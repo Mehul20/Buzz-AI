@@ -24,7 +24,7 @@ class PersonalizedSearchRecommender:
 
     def update_user_matrix(self, username, course_id, rating):
         user_matrix = self.get_user_matrix(username)
-        normalized_rating = (rating - 1) / 4  # Transform 1-5 to 0-1
+        normalized_rating = (rating - 3) / 2  # Transform 1-5 to [-1,1]
         user_matrix[course_id] = normalized_rating
         user_file = os.path.join(self.user_data_dir, f"{username}.npy")
         np.save(user_file, user_matrix)
@@ -34,10 +34,10 @@ class PersonalizedSearchRecommender:
         
         weighted_embedding = np.zeros_like(query_vector)
         total_weight = 0
-        for course_id, rating in enumerate(user_matrix):
-            if rating > 0:
-                weighted_embedding += rating * self.course_embeddings[course_id]
-                total_weight += rating
+        for course_id, weight in enumerate(user_matrix):
+            if weight != 0:
+                weighted_embedding += weight * self.course_embeddings[course_id]
+                total_weight += abs(weight)
         
         if total_weight > 0:
             weighted_embedding /= total_weight
@@ -45,8 +45,7 @@ class PersonalizedSearchRecommender:
             # Combine the original query vector with the personalized vector
             alpha = 0.7  # Weight for the original query. Adjust as needed.
             personalized_query = alpha * query_vector + (1 - alpha) * weighted_embedding
-            print("built personalized query vector")
-            return personalized_query
+            return personalized_query.reshape(1, -1)
         else:
             return query_vector
 
@@ -54,11 +53,20 @@ class PersonalizedSearchRecommender:
         query_vector = self.model.encode(user_query).astype("float32").reshape(1, -1)
         personalized_query = self.get_personalized_query_vector(username, query_vector)
         
-        _, indices = self.index.search(personalized_query, top_k)
+        _, indices = self.index.search(personalized_query, top_k * 2)
         
-        topIndices = list(indices[0])
-        recommendations = [self.course_ids[index] for index in topIndices]
+        user_matrix = self.get_user_matrix(username)
+        scored_indices = [(idx, user_matrix[idx]) for idx in indices[0]]
+        scored_indices.sort(key=lambda x: x[1], reverse=True)  # user rating, highest first
         
+        # prioritize positively rated and new items
+        recommendations = []
+        for idx, score in scored_indices:
+            if len(recommendations) >= top_k:
+                break
+            if score >= 0 or score == 0:  # Include positively rated or unrated items
+                recommendations.append(self.course_ids[idx])
+
         return recommendations
 
 def get_user_ratings(recommendations):
