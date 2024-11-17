@@ -3,8 +3,8 @@ from sentence_transformers import SentenceTransformer
 from utils import read_file
 import numpy as np
 
-def similarity_for_query(user_query):
-    model = SentenceTransformer('all-MiniLM-L6-v2')
+def similarity_for_query(user_query, model = 'all-MiniLM-L6-v2'):
+    model = SentenceTransformer(model)
     index = faiss.read_index("../Processed/faiss_index.index")
     course_ids = np.load("../Processed/course_ids.npy", allow_pickle=True)
 

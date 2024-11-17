@@ -1,0 +1,13 @@
+query,subject,ground_truth
+Investing ,MGT,"MGT 3076,MGT 3078,MGT 4070,MGT 4067,MGT 4073"
+Trading and portfolio optimization,"MGT,CS,ISYE","MGT 6078,MGT 3084,ISYE 6673,ISYE 6759,MGT 6081"
+computer architecture,"CS,ECE,CSE","CS 2200,CS 4290,CS 6290,ECE 6100,ECE4100"
+natural language processing and learning to use ai and ml for text data,CS,"CS 4650,CS 7650,CS 3600,CS 4641,CS 7641"
+i want to learn the math needed to become a quant at a hedge fund,"MATH,ISYE,CS,MGT","ISYE 3770,MATH 6635,MGT 3084,ISYE 6759,MGT 6078"
+"government politics, history of the united states and the world perception of united states","HIST,PUBP,INTA,POL","INTA 1200,HIST 2111,HIST 2112,POL 1101,PUBP 3000"
+poker theory and math behind poker and optimal decision making,"MATH,ECON,CS,ISYE","ECON 4180,ECON 4190,MATH 3235,CS 3600,CS 2050"
+"database systems, fast read write access to data, and efficient storages solutions","CS,ECE,CSE","CS 4400,CS 4420,CS 6400,CS 6422,CS 7210"
+food processing and chemicals in food ,"CHBE,CHEM,BIOL","CHEM 6502,CHEM 3522,CHEM 6501,CHBE 4411"
+organic chemistry,"CHEM,CHBE,BIOL","CHEM 2311,CHEM 2312,CHEM 6372,CHEM 1315"
+reinforcement learning,,"CS 8803,CS 7642,CS 3600,CS 6601"
+quantum computing,,"PHYS 4782,CS 7400,PHYS 2212,PHYS 6104,PHYS 6106"
