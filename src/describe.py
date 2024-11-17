@@ -45,10 +45,11 @@ def get_GPT_description(user_query):
 if __name__ == "__main__":
     user_query = "Mutex Locks"
     subject = ["CS"] # This needs can be empty if you want all classes
-    top_results, class_descriptions = search.run(user_query=user_query, subject=subject)
-    print(top_results)
-    print(class_descriptions)
-    query = f"Describe {user_query} in detail."
+    top_results, class_descriptions = search.run(query=user_query, sub=subject)
+    for course in class_descriptions:
+        query = f"Describe the course {class_descriptions[course][0]} with description {class_descriptions[course][1]}"
+        print(f"{query}\n\n")
+        break
     T5_description = get_T5_description(query)
     # BART_description = get_BART_description(query)
     # GPT_description = get_GPT_description(query)
