@@ -1,6 +1,6 @@
 import faiss
 from sentence_transformers import SentenceTransformer
-from src.utils import read_file
+from utils import read_file
 import numpy as np
 
 def similarity_for_query(user_query):
@@ -15,7 +15,7 @@ def similarity_for_query(user_query):
     top_results = []
     for index in topIndices:
         top_results.append(course_ids[index])
-    return top_results, topIndices
+    return top_results
 
 def convert_top_results_into_data(top_results, subject):
     data = read_file("../Processing/data_clean.json")
@@ -25,8 +25,8 @@ def convert_top_results_into_data(top_results, subject):
         if len(subject) == 0 or curr_subject in subject:
             print(curr_result, class_name)
 
-if __name__ == "__main__":
-    user_query = "Cryptography"
-    subject = ["CS"] # This needs can be empty if you want all classes
-    top_results = similarity_for_query(user_query)
-    convert_top_results_into_data(top_results, subject)
+
+user_query = "Cryptography"
+subject = ["CS"] # This needs can be empty if you want all classes
+top_results = similarity_for_query(user_query)
+convert_top_results_into_data(top_results, subject)
