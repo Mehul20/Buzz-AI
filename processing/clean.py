@@ -1,4 +1,5 @@
 import json
+from special_title import getTitle
 
 def read_data(filePath):
     with open(filePath, 'r') as file:
@@ -18,7 +19,8 @@ def extract_sections(raw_sections):
             professor_names = []
         course_sections[section_name] = {
             "Professors": professor_names,
-            "Campus Index": raw_sections[curr_section][4]
+            "Campus Index": raw_sections[curr_section][4],
+            "CRN": raw_sections[curr_section][0]
         }
     return course_sections
 
@@ -49,8 +51,10 @@ def special_topics_design(clean_data_model):
         if course_number_isolate == "4803" or course_number_isolate == "8803":
             all_section_info = clean_data_model[key]["Section Information"]
             for section in all_section_info.keys(): 
+                curr_CRN = all_section_info[section]["CRN"]
+                get_name = getTitle(curr_CRN)
                 new_entries[key + "-" + section] = {
-                    "Name": "",
+                    "Name": get_name,
                     "Description": "",
                     "Section Information": {
                         section: all_section_info[section]
