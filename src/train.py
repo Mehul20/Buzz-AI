@@ -8,7 +8,11 @@ def vectorization(model_name):
     data = read_file("../Processing/data_clean.json")
     course_ids = []
     all_vectors = []
+    i = 0
     for course_id in data.keys():
+        if i % 250 == 0:
+            print(f"Trained on {i} courses!")
+        i += 1
         course_vector = "Name:" + data[course_id]["Name"]  + ". Course Description:" + data[course_id]["Description"]
         sp, code = check_relevant_special_topics(course_id)
         if sp:
@@ -34,7 +38,3 @@ def facebook_AI_Search(all_vectors, model_name):
 def run_train(model):
     all_vectors = vectorization(model_name=model)
     facebook_AI_Search(all_vectors, model_name=model)
-
-if __name__ == "__main__":
-    for model_name in get_models():
-        run_train(model=model_name)

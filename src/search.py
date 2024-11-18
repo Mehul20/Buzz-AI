@@ -1,6 +1,6 @@
 import faiss
 from sentence_transformers import SentenceTransformer
-from utils import read_file, get_path, get_model_name, get_models
+from utils import read_file, get_path, get_models
 import numpy as np
 from train import run_train
 
@@ -51,7 +51,7 @@ def process_query(user_query, subjects, model, level):
 if __name__ == "__main__":
     models = get_models()
     model_name = models[0]
-    print(models)    
+    print(models)
     train = False
     if train:
         run_train(model=model_name)
