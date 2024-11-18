@@ -1,5 +1,5 @@
 from sentence_transformers import SentenceTransformer
-from utils import read_file, check_relevant_special_topics, get_path, get_model_name
+from utils import read_file, check_relevant_special_topics, get_path, get_models
 import numpy as np
 import faiss
 
@@ -36,5 +36,5 @@ def run_train(model):
     facebook_AI_Search(all_vectors, model_name=model)
 
 if __name__ == "__main__":
-    model_name = get_model_name()
-    run_train(model=model_name)
+    for model_name in get_models():
+        run_train(model=model_name)

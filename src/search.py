@@ -40,13 +40,13 @@ def process_query(user_query, subjects, model):
     return top_results_for_sub
 
 if __name__ == "__main__":
-    model_name = get_model_name()
     models = get_models()
+    model_name = models[0]
     print(models)    
     train = False
     if train:
         run_train(model=model_name)
-
+        
     user_query = "reinforcement learning"
     subjects = ["CS"]
     process_query(user_query, subjects, model_name)

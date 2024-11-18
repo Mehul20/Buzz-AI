@@ -34,11 +34,6 @@ def get_path(model):
     print(save_path)
     return save_path
 
-def get_model_name():
-    RoBERTa_model = 'all-distilroberta-v1'
-    bert_model = 'all-MiniLM-L6-v2'
-    return bert_model
-
 def get_models():
     RoBERTa_model = 'all-distilroberta-v1'
     bert_model = 'all-MiniLM-L6-v2'
