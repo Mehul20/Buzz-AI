@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from search import similarity_for_query, convert_top_results_into_data
+from search import process_query
 from train import bert_vectorization, facebook_AI_Search
 
 
@@ -24,7 +24,7 @@ def test_model_accuracy():
     model_names = ["all-MiniLM-L6-v2"]
 
     for model in model_names:
-        vectorize_models(model)
+        #vectorize_models(model)
         overlapping_results = 0
         ground_truth_results = 0
         for i in range(len(query)):
@@ -42,10 +42,8 @@ def vectorize_models(model_name):
     all_vectors = bert_vectorization(model_name)
     facebook_AI_Search(all_vectors)
 
-def search_model_results(model_name, query, subjects):
-    top_results = similarity_for_query(query, model_name)
-    convert_top_results_into_data(top_results, subjects)
-
+def search_model_results(model, query, subjects):
+    top_results = process_query(query, subjects, model)
     return top_results
 
 test_model_accuracy()
