@@ -3,8 +3,8 @@ from utils import read_file, check_relevant_special_topics
 import numpy as np
 import faiss
 
-def bert_vectorization():
-    model = SentenceTransformer('all-MiniLM-L6-v2')
+def bert_vectorization(model = 'all-MiniLM-L6-v2'):
+    model = SentenceTransformer(model)
     data = read_file("../Processing/data_clean.json")
     course_ids = []
     all_vectors = []
