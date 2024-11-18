@@ -1,12 +1,13 @@
 import faiss
 from sentence_transformers import SentenceTransformer
-from utils import read_file
+from utils import read_file, get_path
 import numpy as np
 
-def similarity_for_query(user_query, model = 'all-MiniLM-L6-v2'):
-    model = SentenceTransformer(model)
-    index = faiss.read_index("../Processed/faiss_index.index")
-    course_ids = np.load("../Processed/course_ids.npy", allow_pickle=True)
+def similarity_for_query(user_query, model_name):
+    path = get_path(model_name)
+    model = SentenceTransformer(model_name)
+    index = faiss.read_index(f"{path}/faiss_index.index")
+    course_ids = np.load(f"{path}/course_ids.npy", allow_pickle=True)
 
     vectorized_query = model.encode(user_query).astype("float32").reshape(1, -1)
     _, indices = index.search(vectorized_query, 50)
@@ -41,5 +42,5 @@ def process_query(user_query, subjects, model):
 if __name__ == "__main__":
     user_query = "reinforcement learning"
     subjects = ["CS"]
-    model = 'all-MiniLM-L6-v2'
-    process_query(user_query, subjects, model)
+    model_name = 'all-MiniLM-L6-v2'
+    process_query(user_query, subjects, model_name)

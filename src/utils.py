@@ -1,5 +1,6 @@
 import json
 import pickle
+import os
 
 def read_file(filePath):
     with open(filePath, "r") as file:
@@ -25,3 +26,10 @@ def read_pickle_dictionary(filePath):
     with open(filePath, "rb") as file:
         dictionary_found = pickle.load(file)
     return dictionary_found
+
+def get_path(model):
+    base_dir = "../Processed"
+    save_path = os.path.join(base_dir, model)
+    os.makedirs(save_path, exist_ok=True)
+    print(save_path)
+    return save_path
