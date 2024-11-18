@@ -32,6 +32,7 @@ def convert_top_results_into_data(top_results, subjects):
             final_results.append(curr_result)
     return final_results
 
+
 def process_query(user_query, subjects, model):
     top_results = similarity_for_query(user_query, model)
     top_results_for_sub = convert_top_results_into_data(top_results, subjects)
