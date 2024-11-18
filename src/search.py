@@ -1,7 +1,8 @@
 import faiss
 from sentence_transformers import SentenceTransformer
-from utils import read_file, get_path
+from utils import read_file, get_path, get_model_name, get_models
 import numpy as np
+from train import run_train
 
 def similarity_for_query(user_query, model_name):
     path = get_path(model_name)
@@ -33,14 +34,19 @@ def convert_top_results_into_data(top_results, subjects):
             final_results.append(curr_result)
     return final_results
 
-
 def process_query(user_query, subjects, model):
     top_results = similarity_for_query(user_query, model)
     top_results_for_sub = convert_top_results_into_data(top_results, subjects)
     return top_results_for_sub
 
 if __name__ == "__main__":
+    model_name = get_model_name()
+    models = get_models()
+    print(models)    
+    train = False
+    if train:
+        run_train(model=model_name)
+
     user_query = "reinforcement learning"
     subjects = ["CS"]
-    model_name = 'all-MiniLM-L6-v2'
     process_query(user_query, subjects, model_name)
