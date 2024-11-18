@@ -8,11 +8,7 @@ def vectorization(model_name):
     data = read_file("../Processing/data_clean.json")
     course_ids = []
     all_vectors = []
-    i = 0
     for course_id in data.keys():
-        if i % 100 == 0:
-            print(course_id)
-        i += 1
         course_vector = "Name:" + data[course_id]["Name"]  + ". Course Description:" + data[course_id]["Description"]
         sp, code = check_relevant_special_topics(course_id)
         if sp:
