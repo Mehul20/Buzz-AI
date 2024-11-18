@@ -33,3 +33,9 @@ def get_path(model):
     os.makedirs(save_path, exist_ok=True)
     print(save_path)
     return save_path
+
+def get_models():
+    RoBERTa_model = 'all-distilroberta-v1'
+    bert_model = 'all-MiniLM-L6-v2'
+    models = [bert_model, RoBERTa_model]
+    return models

@@ -1,7 +1,8 @@
 import faiss
 from sentence_transformers import SentenceTransformer
-from utils import read_file, get_path
+from utils import read_file, get_path, get_model_name, get_models
 import numpy as np
+from train import run_train
 
 def similarity_for_query(user_query, model_name):
     path = get_path(model_name)
@@ -48,8 +49,14 @@ def process_query(user_query, subjects, model, level):
     return top_results_for_sub
 
 if __name__ == "__main__":
+    models = get_models()
+    model_name = models[0]
+    print(models)    
+    train = False
+    if train:
+        run_train(model=model_name)
+        
     user_query = "reinforcement learning"
     subjects = ["CS"]
-    model_name = 'all-MiniLM-L6-v2'
     level = "undergrad" # Takes in "grad", "undergrad", or None
     process_query(user_query, subjects, model_name, level)
