@@ -31,7 +31,6 @@ def get_path(model):
     base_dir = "../Processed"
     save_path = os.path.join(base_dir, model)
     os.makedirs(save_path, exist_ok=True)
-    print(save_path)
     return save_path
 
 def get_models():

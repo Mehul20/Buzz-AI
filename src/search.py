@@ -58,7 +58,9 @@ def run_search(query, subject, model_name, level):
 
 if __name__ == "__main__":
     models = get_models()
+    # ['all-MiniLM-L6-v2', 'all-distilroberta-v1', 'multi-qa-mpnet-base-dot-v1']
     model_name = models[1]
+    print(f"\nModel: {model_name}\n")
     train = False
     if train:
         run_train(model=model_name)
@@ -66,5 +68,5 @@ if __name__ == "__main__":
     subject = ["CS"]
     level = "undergrad" # Takes in "grad", "undergrad", or None
     top_results_for_sub, descriptions = run_search(user_query, subject, model_name, level)
-    print(top_results_for_sub)
-    print(descriptions)
+    print(f"{top_results_for_sub}\n")
+    print(f"{descriptions}\n")

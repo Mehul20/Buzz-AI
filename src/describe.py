@@ -24,7 +24,7 @@ if __name__ == "__main__":
     subject = ["CS"]
     level = "undergrad"
     models = get_models()
-    # ['all-MiniLM-L6-v2', 'all-distilroberta-v1']
+    # ['all-MiniLM-L6-v2', 'all-distilroberta-v1', 'multi-qa-mpnet-base-dot-v1']
     model_name = models[1]
     top_results, class_descriptions = run_search(query=user_query, subject=subject, model_name=model_name, level=level)
     llama_outputs = []
