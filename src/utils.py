@@ -37,5 +37,6 @@ def get_path(model):
 def get_models():
     RoBERTa_model = 'all-distilroberta-v1'
     bert_model = 'all-MiniLM-L6-v2'
-    models = [bert_model, RoBERTa_model]
+    multi_qa = 'multi-qa-mpnet-base-dot-v1'
+    models = [bert_model, RoBERTa_model, multi_qa]
     return models
