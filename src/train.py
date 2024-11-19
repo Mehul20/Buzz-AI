@@ -1,10 +1,14 @@
 from sentence_transformers import SentenceTransformer
-from utils import read_file, check_relevant_special_topics, get_path, get_models
+from utils import read_file, check_relevant_special_topics, get_path, construct_custom_model
 import numpy as np
 import faiss
 
 def vectorization(model_name):
-    model = SentenceTransformer(model_name)
+    model = None
+    if model_name == "bert-base-uncased":
+            model = construct_custom_model(model_name)
+    else:
+        model = SentenceTransformer(model_name)
     data = read_file("../Processing/data_clean.json")
     course_ids = []
     all_vectors = []
