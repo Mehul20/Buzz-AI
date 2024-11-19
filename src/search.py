@@ -56,14 +56,18 @@ def process_query(user_query, subjects, model, level):
     top_results_for_sub, descriptions = convert_top_results_into_data(top_results, subjects, level)
     return top_results_for_sub, descriptions
 
+def run_search(query, subject, model_name, level):
+    top_results_for_sub, descriptions = process_query(query, subject, model_name, level)
+    return top_results_for_sub, descriptions
+
 if __name__ == "__main__":
     models = get_models()
+
     model_name = models[-1]
-    train = True
+    train = False
     if train:
         run_train(model=model_name)
-        
     user_query = "reinforcement learning"
-    subjects = ["CS"]
+    subject = ["CS"]
     level = "undergrad" # Takes in "grad", "undergrad", or None
     top_results_for_sub, descriptions = process_query(user_query, subjects, model_name, level)
