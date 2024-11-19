@@ -50,13 +50,13 @@ def process_query(user_query, subjects, model, level):
 
 if __name__ == "__main__":
     models = get_models()
-    model_name = models[0]
-    print(models)
-    train = False
+    model_name = models[2]
+    # print(models)
+    train = True
     if train:
         run_train(model=model_name)
         
-    user_query = "reinforcement learning"
-    subjects = ["CS"]
-    level = "undergrad" # Takes in "grad", "undergrad", or None
+    user_query = "reinformcent learning"
+    subjects = []
+    level = "grad" # Takes in "grad", "undergrad", or None
     process_query(user_query, subjects, model_name, level)
