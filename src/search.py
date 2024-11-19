@@ -31,32 +31,38 @@ def convert_top_results_into_data(top_results, subjects, level):
     data = read_file("../Processing/data_clean.json")
     baseline, counter = 20, 0
     final_results = []
+    descriptions = []
     for curr_result in top_results:
         class_name = data[curr_result]["Name"]
+        description = data[curr_result]["Description"]
         curr_subject = curr_result.split(" ")[0]
         level_eligible = check_level_eligible(level, curr_result)
         if (len(subjects) == 0 or curr_subject in subjects) and level_eligible:
             if counter > baseline:
                 break
             counter = counter + 1
-            print(curr_result, class_name)
+            # print(curr_result, class_name)
+            # print(description)
             final_results.append(curr_result)
-    return final_results
+            descriptions.append(description)
+    return final_results, descriptions
 
 def process_query(user_query, subjects, model, level):
     top_results = similarity_for_query(user_query, model)
-    top_results_for_sub = convert_top_results_into_data(top_results, subjects, level)
-    return top_results_for_sub
+    top_results_for_sub, descriptions = convert_top_results_into_data(top_results, subjects, level)
+    return top_results_for_sub, descriptions
 
 if __name__ == "__main__":
     models = get_models()
-    model_name = models[2]
-    # print(models)
-    train = True
+    print(models)
+    model_name = models[1]
+    train = False
     if train:
         run_train(model=model_name)
         
-    user_query = "reinformcent learning"
-    subjects = []
-    level = "grad" # Takes in "grad", "undergrad", or None
-    process_query(user_query, subjects, model_name, level)
+    user_query = "reinforcement learning"
+    subjects = ["CS"]
+    level = "undergrad" # Takes in "grad", "undergrad", or None
+    top_results_for_sub, descriptions = process_query(user_query, subjects, model_name, level)
+    print(top_results_for_sub)
+    print(descriptions)
