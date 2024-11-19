@@ -1,56 +1,38 @@
-from transformers import T5ForConditionalGeneration, T5Tokenizer
-from transformers import BartForConditionalGeneration, BartTokenizer
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
-import search
+from transformers import pipeline
+from search import run_search
+from utils import get_models
+import torch
 
-def get_T5():
-    model = T5ForConditionalGeneration.from_pretrained('google/t5-v1_1-base')
-    tokenizer = T5Tokenizer.from_pretrained('google/t5-v1_1-base')
-    return model, tokenizer
+def get_llama():
+    model_id = "meta-llama/Llama-3.2-1B"
+    pipe = pipeline(
+        "text-generation", 
+        model=model_id, 
+        torch_dtype=torch.bfloat16, 
+        device_map="auto"
+    )
+    if pipe.model.config.pad_token_id is None:
+        pipe.model.config.pad_token_id = pipe.model.config.eos_token_id
+    return pipe
 
-def get_T5_description(user_query):
-    model, tokenizer = get_T5()
-    tokenizer.pad_token = tokenizer.eos_token
-    inputs = tokenizer(user_query, return_tensors="pt", padding=True, truncation=True)
-    outputs = model.generate(inputs['input_ids'], attention_mask=inputs['attention_mask'], pad_token_id=tokenizer.pad_token_id, max_length=150)
-    detailed_description = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    return detailed_description
-
-def get_BART():
-    model = BartForConditionalGeneration.from_pretrained('facebook/bart-large')
-    tokenizer = BartTokenizer.from_pretrained('facebook/bart-large')
-    return model, tokenizer
-
-def get_BART_description(user_query):
-    model, tokenizer = get_BART()
-    inputs = tokenizer(user_query, return_tensors="pt")
-    outputs = model.generate(inputs['input_ids'], max_length=150, num_beams=5, temperature=0.7)
-    detailed_description = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    return detailed_description
-
-def get_GPT():
-    model = GPT2LMHeadModel.from_pretrained('gpt2')
-    tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
-    return model, tokenizer
-
-def get_GPT_description(user_query):
-    model, tokenizer = get_GPT()
-    inputs = tokenizer(user_query, return_tensors="pt", padding=True, truncation=True)
-    attention_mask = inputs['attention_mask']
-    pad_token_id = tokenizer.eos_token_id
-    outputs = model.generate(inputs['input_ids'], attention_mask=attention_mask, pad_token_id=pad_token_id, max_length=150)
-    detailed_description = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    return detailed_description
+def generate(user_query):
+    pipe = get_llama()
+    return pipe(user_query, max_new_tokens=150)
 
 if __name__ == "__main__":
-    user_query = "Mutex Locks"
-    subject = ["CS"] # This needs can be empty if you want all classes
-    top_results, class_descriptions = search.run(query=user_query, sub=subject)
-    for course in class_descriptions:
-        query = f"Describe the course {class_descriptions[course][0]} with description {class_descriptions[course][1]}"
-        print(f"{query}\n\n")
-        break
-    T5_description = get_T5_description(query)
-    # BART_description = get_BART_description(query)
-    # GPT_description = get_GPT_description(query)
-    print(T5_description)
+    user_query = "reinforcement learning"
+    subject = ["CS"]
+    level = "undergrad"
+    models = get_models()
+    # ['all-MiniLM-L6-v2', 'all-distilroberta-v1']
+    model_name = models[1]
+    top_results, class_descriptions = run_search(query=user_query, subject=subject, model_name=model_name, level=level)
+    llama_outputs = []
+    for i in range(len(class_descriptions)):
+        query = f"Describe: {top_results[i]}: {class_descriptions[i]}"
+        llama_output = generate(query)[0]['generated_text']
+        llama_outputs.append(llama_output)
+
+    for i in range(len(class_descriptions)):
+        print(f"\n{top_results[i]}:\n")
+        print(f"{llama_outputs[i]}")
