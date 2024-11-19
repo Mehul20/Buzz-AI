@@ -1,7 +1,6 @@
 import os
 import pandas as pd
 from search import process_query
-from train import bert_vectorization, facebook_AI_Search
 
 
 def read_csv(file_path):
@@ -20,17 +19,17 @@ def test_model_accuracy():
     subjects = ground_truth["subject"]
     query = ground_truth["query"]
     expected_results = ground_truth["ground_truth"]
+    level = ground_truth["level"]
 
-    model_names = ["all-MiniLM-L6-v2"]
+    model_names = ["all-MiniLM-L6-v2", "all-distilroberta-v1", "multi-qa-mpnet-base-dot-v1"]
 
     for model in model_names:
-        #vectorize_models(model)
         overlapping_results = 0
         ground_truth_results = 0
         for i in range(len(query)):
             expected_classes = convert_string_to_list(expected_results[i])
             subj = convert_string_to_list(subjects[i])
-            model_result = search_model_results(model, query[i], subj)
+            model_result = search_model_results(model, query[i], subj, level[i])
             for result in model_result:
                 if result in expected_classes:
                     overlapping_results += 1
@@ -38,12 +37,8 @@ def test_model_accuracy():
         accuracy = overlapping_results / ground_truth_results
         print(f"Accuracy for {model} is {accuracy}")
 
-def vectorize_models(model_name):
-    all_vectors = bert_vectorization(model_name)
-    facebook_AI_Search(all_vectors)
-
-def search_model_results(model, query, subjects):
-    top_results = process_query(query, subjects, model)
+def search_model_results(model, query, subjects, level):
+    top_results = process_query(query, subjects, model, level)
     return top_results
 
 test_model_accuracy()

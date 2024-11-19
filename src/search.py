@@ -58,7 +58,6 @@ def run_search(query, subject, model_name, level):
 
 if __name__ == "__main__":
     models = get_models()
-    # ['all-MiniLM-L6-v2', 'all-distilroberta-v1']
     model_name = models[1]
     train = False
     if train:
