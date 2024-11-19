@@ -1,6 +1,7 @@
 import json
 import pickle
 import os
+from sentence_transformers import SentenceTransformer, models
 
 def read_file(filePath):
     with open(filePath, "r") as file:
@@ -38,5 +39,12 @@ def get_models():
     RoBERTa_model = 'all-distilroberta-v1'
     bert_model = 'all-MiniLM-L6-v2'
     multi_qa = 'multi-qa-mpnet-base-dot-v1'
-    models = [bert_model, RoBERTa_model, multi_qa]
+    bert_base = "bert-base-uncased"
+    models = [bert_model, RoBERTa_model, multi_qa, bert_base]
     return models
+
+def construct_custom_model(model_name):
+    model_transformer = models.Transformer(model_name)
+    model_pool_layer = models.Pooling(model_transformer.get_word_embedding_dimension(), pooling_mode_mean_tokens = True)
+    custom_model_construct = SentenceTransformer(modules = [model_transformer, model_pool_layer])
+    return custom_model_construct

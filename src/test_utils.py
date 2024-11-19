@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from search import process_query
+from utils import get_models
 
 
 def read_csv(file_path):
@@ -21,7 +22,7 @@ def test_model_accuracy():
     expected_results = ground_truth["ground_truth"]
     level = ground_truth["level"]
 
-    model_names = ["all-MiniLM-L6-v2", "all-distilroberta-v1", "multi-qa-mpnet-base-dot-v1"]
+    model_names = [get_models()[-1]]
 
     for model in model_names:
         overlapping_results = 0
@@ -38,7 +39,7 @@ def test_model_accuracy():
         print(f"Accuracy for {model} is {accuracy}")
 
 def search_model_results(model, query, subjects, level):
-    top_results = process_query(query, subjects, model, level)
+    top_results, _ = process_query(query, subjects, model, level)
     return top_results
 
 test_model_accuracy()

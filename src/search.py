@@ -1,12 +1,17 @@
 import faiss
 from sentence_transformers import SentenceTransformer
-from utils import read_file, get_path, get_models
+from utils import read_file, get_path, get_models, construct_custom_model
 import numpy as np
 from train import run_train
 
 def similarity_for_query(user_query, model_name):
     path = get_path(model_name)
-    model = SentenceTransformer(model_name)
+    model = None
+    if model_name == "bert-base-uncased":
+        model = construct_custom_model(model_name)
+    else:
+        model = SentenceTransformer(model_name)
+
     index = faiss.read_index(f"{path}/faiss_index.index")
     course_ids = np.load(f"{path}/course_ids.npy", allow_pickle=True)
 
@@ -41,8 +46,7 @@ def convert_top_results_into_data(top_results, subjects, level):
             if counter > baseline:
                 break
             counter = counter + 1
-            # print(curr_result, class_name)
-            # print(description)
+            print(curr_result, class_name)
             final_results.append(curr_result)
             descriptions.append(description)
     return final_results, descriptions
@@ -58,13 +62,12 @@ def run_search(query, subject, model_name, level):
 
 if __name__ == "__main__":
     models = get_models()
-    model_name = models[1]
+
+    model_name = models[-1]
     train = False
     if train:
         run_train(model=model_name)
     user_query = "reinforcement learning"
     subject = ["CS"]
     level = "undergrad" # Takes in "grad", "undergrad", or None
-    top_results_for_sub, descriptions = run_search(user_query, subject, model_name, level)
-    print(top_results_for_sub)
-    print(descriptions)
+    top_results_for_sub, descriptions = process_query(user_query, subjects, model_name, level)
