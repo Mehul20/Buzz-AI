@@ -85,10 +85,12 @@ if __name__ == "__main__":
     level = args.level # Takes in "grad", "undergrad", or None
     print("*         🐝 Welcome to Buzz AI 🐝         *")
     print("*  Here are your tailored recommendations  *")
+    print()
     print("---- User Query:", args.query, "----")
     if len(subjects) > 0:
         print("---- Subjects Chosen: ", subjects, "----")
     if level:
         print("---- Level Chosen: ", args.level, "----")
+    print()
     
     top_results_for_sub, descriptions = process_query(user_query, subjects, model_name, level)
