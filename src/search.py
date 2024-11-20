@@ -69,16 +69,26 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.level and args.level not in {'grad', 'undergrad'}:
-        print("unknown level, allowing all grad and undergrad levels.")
+        print("unknown level, allowing all Grad and Undergrad levels.")
         args.level = None
 
     models = get_models()
 
-    model_name = models[-1]
+    model_name = models[0]
     train = False
     if train:
         run_train(model=model_name)
     user_query = args.query
-    subjects = args.courses.split(",")
+    subjects = []
+    if args.courses != "":
+        subjects = args.courses.split(",")
     level = args.level # Takes in "grad", "undergrad", or None
+    print("*         🐝 Welcome to Buzz AI 🐝         *")
+    print("*  Here are your tailored recommendations  *")
+    print("---- User Query:", args.query, "----")
+    if len(subjects) > 0:
+        print("---- Subjects Chosen: ", subjects, "----")
+    if level:
+        print("---- Level Chosen: ", args.level, "----")
+    
     top_results_for_sub, descriptions = process_query(user_query, subjects, model_name, level)
