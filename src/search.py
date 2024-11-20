@@ -3,6 +3,7 @@ from sentence_transformers import SentenceTransformer
 from utils import read_file, get_path, get_models, construct_custom_model
 import numpy as np
 from train import run_train
+import argparse
 
 def similarity_for_query(user_query, model_name):
     path = get_path(model_name)
@@ -61,13 +62,23 @@ def run_search(query, subject, model_name, level):
     return top_results_for_sub, descriptions
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-c", "--courses", default='', type=str)
+    parser.add_argument("-l", "--level", default=None, type=str)
+    parser.add_argument("-q", "--query", required=True, type=str)
+    args = parser.parse_args()
+
+    if args.level and args.level not in {'grad', 'undergrad'}:
+        print("unknown level, allowing all grad and undergrad levels.")
+        args.level = None
+
     models = get_models()
 
     model_name = models[-1]
     train = False
     if train:
         run_train(model=model_name)
-    user_query = "reinforcement learning"
-    subject = ["CS"]
-    level = "undergrad" # Takes in "grad", "undergrad", or None
+    user_query = args.query
+    subjects = args.courses.split(",")
+    level = args.level # Takes in "grad", "undergrad", or None
     top_results_for_sub, descriptions = process_query(user_query, subjects, model_name, level)
