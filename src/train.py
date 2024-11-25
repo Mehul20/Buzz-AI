@@ -1,5 +1,5 @@
 from sentence_transformers import SentenceTransformer
-from utils import read_file, check_relevant_special_topics, get_path, construct_custom_model
+from utils import read_file, check_relevant_special_topics, get_path, construct_custom_model, read_text_from_pdf
 import numpy as np
 import faiss
 
@@ -18,6 +18,8 @@ def vectorization(model_name):
             print(f"Trained on {i} courses!")
         i += 1
         course_vector = "Name:" + data[course_id]["Name"]  + ". Course Description:" + data[course_id]["Description"]
+        if len(data[course_id]["Syllabus"]) > 0:
+           course_vector += ". Syllabus Text: " + read_text_from_pdf(data[course_id]["Syllabus"])
         sp, code = check_relevant_special_topics(course_id)
         if sp:
             research_area = data[course_id]["Section Information"][code]["Research Area"]

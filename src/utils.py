@@ -2,6 +2,7 @@ import json
 import pickle
 import os
 from sentence_transformers import SentenceTransformer, models
+import pdfplumber
 
 def read_file(filePath):
     with open(filePath, "r") as file:
@@ -47,3 +48,10 @@ def construct_custom_model(model_name):
     model_pool_layer = models.Pooling(model_transformer.get_word_embedding_dimension(), pooling_mode_mean_tokens = True)
     custom_model_construct = SentenceTransformer(modules = [model_transformer, model_pool_layer])
     return custom_model_construct
+
+def read_text_from_pdf(path):
+    all_text = ""
+    with pdfplumber.open(path) as curr_pdf:
+        for curr_page in curr_pdf.pages:
+            all_text = all_text + curr_page.extract_text()
+    return all_text

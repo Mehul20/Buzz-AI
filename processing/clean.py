@@ -41,6 +41,7 @@ def create_data_model(relevant_courses):
             "Name": course_name,
             "Description": course_description,
             "Section Information": course_sections,
+            "Syllabus": ""
         }
     return clean_data_model
 
@@ -86,6 +87,7 @@ def special_topics_design(clean_data_model):
                     "Section Information": {
                         section: all_section_info[section]
                     },
+                    "Syllabus" : ""
                 }
             special_topics_classes.append(key)
     
@@ -100,10 +102,13 @@ def manual_data_merging(clean_data_model):
     manual_data = read_data("manual_inputs.json")
     for key in manual_data.keys():
         if key in clean_data_model.keys():
-            clean_data_model[key]["Name"] = manual_data[key]["Name"]
-            clean_data_model[key]["Description"] = manual_data[key]["Description"]
+            if "Name" in manual_data[key].keys():
+                clean_data_model[key]["Name"] = manual_data[key]["Name"]
+            if "Description" in manual_data[key].keys():
+                clean_data_model[key]["Description"] = manual_data[key]["Description"]
+            if "Syllabus" in manual_data[key].keys():
+                clean_data_model[key]["Syllabus"]  = manual_data[key]["Syllabus"]
     return clean_data_model
-
 
 def delete_irrelevant_classes(clean_data_model):
     doctoral_thesis = []
