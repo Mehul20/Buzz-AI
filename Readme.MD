@@ -1,7 +1,8 @@
 # Buzz-AI
 
-Enhancing Georgia Tech Course Discovery Using Transformer-Based Semantic Search
+## Codebase
 
+Enhancing Georgia Tech Course Discovery Using Transformer-Based Semantic Search
 
 - `DataSource` has all the data that we have worked with.
 
@@ -12,6 +13,12 @@ Enhancing Georgia Tech Course Discovery Using Transformer-Based Semantic Search
 - `Syllabus` will have all the Syllabus PDFs
 
 - `User` and `UserData` have code and dynamic files for Adpative Recommendations/Collaborative Filtering.
+
+## Setup
+
+```
+pip install faiss-cpu sentence-transformers numpy pandas pdfplumber
+```
 
 ## Search Queries
 

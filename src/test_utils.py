@@ -3,7 +3,6 @@ import pandas as pd
 from search import process_query
 from utils import get_models
 
-
 def read_csv(file_path):
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"File {file_path} does not exist")
