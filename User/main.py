@@ -8,8 +8,8 @@ class PersonalizedSearchRecommender:
         self.num_courses = num_courses
         self.user_data_dir = user_data_dir
         self.model = SentenceTransformer('all-MiniLM-L6-v2')
-        self.index = faiss.read_index("../Processed/faiss_index.index")
-        self.course_ids = np.load("../Processed/course_ids.npy", allow_pickle=True)
+        self.index = faiss.read_index("../Processed/all-MiniLM-L6-v2/faiss_index.index")
+        self.course_ids = np.load("../Processed/all-MiniLM-L6-v2/course_ids.npy", allow_pickle=True)
         self.course_embeddings = self.index.reconstruct_n(0, self.index.ntotal)
         
         if not os.path.exists(user_data_dir):
@@ -87,7 +87,7 @@ def get_user_ratings(recommendations):
     return ratings
 
 def main():
-    num_courses = len(np.load("../Processed/course_ids.npy", allow_pickle=True))
+    num_courses = len(np.load("../Processed/all-MiniLM-L6-v2/course_ids.npy", allow_pickle=True))
     recommender = PersonalizedSearchRecommender(num_courses)
 
     username = input("Please enter your username: ")
