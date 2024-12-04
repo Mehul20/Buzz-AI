@@ -75,7 +75,7 @@ if __name__ == "__main__":
     models = get_models()
 
     model_name = models[0]
-    train = True
+    train = False
     if train:
         run_train(model=model_name)
     user_query = args.query
