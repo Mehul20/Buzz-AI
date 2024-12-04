@@ -9,8 +9,16 @@ Enhancing Georgia Tech Course Discovery Using Transformer-Based Semantic Search
 
 - `src` has all the code required for training and searching.
 
+- `Syllabus` will have all the Syllabus PDFs
+
+- `User` and `UserData` have code and dynamic files for Adpative Recommendations/Collaborative Filtering.
+
+## Commands
+
 -q: User Query - String (Mandatory)
+
 -l: Level - ``grad", ``undergrad" (Optional)
+
 -c: Courses - ``MGT", ``CS", ``CSE" (Optiona)
 
 You can run:
@@ -21,7 +29,3 @@ python3 search.py -q "Poker Theory" -c "CS,CSE" -l "grad"
 ```
 
 You can change the flags as needed and required.
-
-- `Syllabus` will have all the Syllabus PDFs
-
-- `User` and `UserData` have code and dynamic files for Adpative Recommendations/Collaborative Filtering.
