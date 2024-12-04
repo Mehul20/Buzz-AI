@@ -26,7 +26,7 @@ pip install faiss-cpu sentence-transformers numpy pandas pdfplumber
 
 - -l: Level - "grad", "undergrad" (Optional)
 
-- -c: Courses - "MGT", "CS", "CSE" (Optiona)
+- -c: Courses - "MGT", "CS", "CSE" (Optional)
 
 You can run:
 
