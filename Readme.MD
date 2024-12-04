@@ -13,7 +13,7 @@ Enhancing Georgia Tech Course Discovery Using Transformer-Based Semantic Search
 
 - `User` and `UserData` have code and dynamic files for Adpative Recommendations/Collaborative Filtering.
 
-## Commands
+## Search Queries
 
 -q: User Query - String (Mandatory)
 
@@ -29,3 +29,10 @@ python3 search.py -q "Poker Theory" -c "CS,CSE" -l "grad"
 ```
 
 You can change the flags as needed and required.
+
+## Adaptive Recommendations
+
+```
+cd User 
+python3 main.py
+```
