@@ -43,3 +43,9 @@ You can change the flags as needed and required.
 cd User 
 python3 main.py
 ```
+
+## Contributors
+- Mehul Rastogi
+- Akshat Karwa
+- Pranay Begwani
+- Vidushi Maheshwari
